@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T11:26:20.864Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="GMUN4RzryhJXSUNO1zzR" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-06T11:34:45.007Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="hd4jzGwF4DK8UycoWw3h" version="21.3.7" type="github">
   <diagram id="yPxyJZ8AM_hMuL3Unpa9" name="simple gitflow">
-    <mxGraphModel dx="2607" dy="1462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1912" dy="1072" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -248,14 +248,14 @@
         <mxCell id="kNyc37dz9Y1JkBd23-l--139" value="Les bugfix suivants peuvent profiter au plus tôt des bugfix précédents en repartant sur le dernier comit de la branche master. Cela permet d&#39;éviter au plus tôt les conflits potentiels lors du merge" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Helvetica;fontColor=default;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="759" y="490" width="379.37" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kNyc37dz9Y1JkBd23-l--140" value="Les features dédiées à la version 2023.3 ne peuvent être mergées en master qu&#39;une fois le release officielle faite (création de la branche de version) et passage du master en 2023.3.000-SNAPSHOT.&lt;br&gt;Si le dev avait commencé avant la release officielle, il faudra penser à bien merger à nouveau la branche master dans la branche de feature avant de faire la certif" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Helvetica;fontColor=default;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="kNyc37dz9Y1JkBd23-l--140" value="Les features&amp;nbsp; et fixes dédiées à la version 2023.3 ne peuvent être mergées en master qu&#39;une fois le release officielle faite (création de la branche de version) et passage du master en 2023.3.000-SNAPSHOT.&lt;br&gt;Si le dev avait commencé avant la release officielle, il faudra penser à bien merger à nouveau la branche master dans la branche de feature avant de faire la certif" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Helvetica;fontColor=default;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="860" y="730" width="469.69" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kNyc37dz9Y1JkBd23-l--156" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;2023.2.000_fix_1234-SNAPSHOT&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="328.44" y="275" width="204.37" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kNyc37dz9Y1JkBd23-l--157" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;2023.2.000_fix_1235-SNAPSHOT&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="385.63" y="345" width="204.37" height="80" as="geometry" />
+          <mxGeometry x="373.63" y="345" width="204.37" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kNyc37dz9Y1JkBd23-l--158" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;2023.2.000.02_fix_1236-SNAPSHOT&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="762.81" y="400" width="204.37" height="40" as="geometry" />
@@ -296,6 +296,9 @@
         </mxCell>
         <mxCell id="kNyc37dz9Y1JkBd23-l--176" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=4;shape=mxgraph.flowchart.on-page_reference;plain-blue;gradientColor=none;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="110" y="235" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vT17XC7h2RkqVenQYAPP-1" value="approbation nécessaire, sinon sera à merger plus tard une fois la 2023.3 démarrée" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Helvetica;fontColor=default;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="560" y="275" width="90.5" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
