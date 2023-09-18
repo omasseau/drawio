@@ -1,0 +1,540 @@
+<mxfile host="app.diagrams.net" modified="2023-09-18T16:32:13.177Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="DhPRNLjuriXgUzFpuSXP" version="21.6.1" type="github">
+  <diagram name="Page-1" id="HAjE-nJK2nhPseXHy5An">
+    <mxGraphModel dx="1434" dy="2093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-1" target="fy3cLaKTtEcv1rsZ_gve-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-1" value="Interactive" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_2;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="50" y="141" width="80.46" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-2" target="fy3cLaKTtEcv1rsZ_gve-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-32" value="token jwt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-31" vertex="1" connectable="0">
+          <mxGeometry x="-0.35" y="-19" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-57" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-2" target="fy3cLaKTtEcv1rsZ_gve-56" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-2" value="Keycloak" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.directory_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="390" y="123.5" width="65" height="88.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-4" value="&lt;div&gt;LDAP&lt;/div&gt;" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="830" y="122" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-5" target="fy3cLaKTtEcv1rsZ_gve-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-11" value="openid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.1004" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-5" value="Gateway" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dns_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="230" y="123.5" width="76.5" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-13" target="fy3cLaKTtEcv1rsZ_gve-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-13" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_2;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="80" y="686" width="80.46" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-16" target="fy3cLaKTtEcv1rsZ_gve-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="712.1263157894737" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-15" value="saml v2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-14" vertex="1" connectable="0">
+          <mxGeometry x="-0.2456" relative="1" as="geometry">
+            <mxPoint x="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-16" target="fy3cLaKTtEcv1rsZ_gve-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="867" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-37" value="token jwt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-36" vertex="1" connectable="0">
+          <mxGeometry x="0.4102" y="-23" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-16" value="Keycloak" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.directory_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="420" y="668.5" width="65" height="88.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-34" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-46" target="fy3cLaKTtEcv1rsZ_gve-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="753.3333333333333" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="540" y="867" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-35" value="assertations saml" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-34" vertex="1" connectable="0">
+          <mxGeometry x="0.3126" y="-18" relative="1" as="geometry">
+            <mxPoint x="9" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-20" target="fy3cLaKTtEcv1rsZ_gve-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-19" value="openid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-18" vertex="1" connectable="0">
+          <mxGeometry x="-0.1004" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-20" value="Gateway" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dns_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="260" y="668.5" width="76.5" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-22" target="fy3cLaKTtEcv1rsZ_gve-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-22" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_2;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="90" y="886" width="80.46" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-25" target="fy3cLaKTtEcv1rsZ_gve-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="912.1690140845071" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-24" value="openid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-23" vertex="1" connectable="0">
+          <mxGeometry x="-0.2456" relative="1" as="geometry">
+            <mxPoint x="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-40" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-25" target="fy3cLaKTtEcv1rsZ_gve-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="1057" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-41" value="token jwt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-40" vertex="1" connectable="0">
+          <mxGeometry x="0.3679" y="-19" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-25" value="Keycloak" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.directory_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="430" y="868.5" width="65" height="88.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-27" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-29" target="fy3cLaKTtEcv1rsZ_gve-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-28" value="openid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-27" vertex="1" connectable="0">
+          <mxGeometry x="-0.1004" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-29" value="Gateway" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dns_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="270" y="868.5" width="76.5" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-38" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-30" target="fy3cLaKTtEcv1rsZ_gve-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="1047" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-39" value="token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-38" vertex="1" connectable="0">
+          <mxGeometry x="0.4713" y="-24" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-30" value="AzureAD" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="642.5" y="880" width="95" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-43" value="ADFS ~ AzureAD hébergé on-prem.&lt;br&gt;Redirection vers la page de login de l&#39;ADFS&lt;br&gt;--&amp;gt; SSO possible avec applications déjà connectés à l&#39;ADFS dans le même browser" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="699.75" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-44" value="Redirection vers la page de login Microsoft &lt;br&gt;--&amp;gt; SSO possible avec applications déjà connectés à AzureAD dans le même browser" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="760" y="886" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-48" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-46" target="fy3cLaKTtEcv1rsZ_gve-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-46" value="Active Directory Federation Service (ADFS)" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.ftp_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="650" y="660" width="71" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-47" value="Active Directory" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="890" y="663.5" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-58" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-56" target="fy3cLaKTtEcv1rsZ_gve-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-56" value="Keycloak" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.directory_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="600" y="123.5" width="65" height="88.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-60" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-59" target="fy3cLaKTtEcv1rsZ_gve-56" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-61" value="openid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-60" vertex="1" connectable="0">
+          <mxGeometry x="-0.1811" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-59" value="Portail" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_2;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="592.27" y="-50" width="80.46" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-62" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-63" target="fy3cLaKTtEcv1rsZ_gve-70" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-63" value="Interactive" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_2;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="100" y="1411" width="80.46" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-64" value="token jwt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="395.132510820461" y="1540.6476304803182" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-65" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-66" target="fy3cLaKTtEcv1rsZ_gve-72" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-66" value="Keycloak" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.directory_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="440" y="1393.5" width="65" height="88.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-67" value="&lt;div&gt;LDAP&lt;/div&gt;" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="880" y="1392" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-68" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-70" target="fy3cLaKTtEcv1rsZ_gve-66" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-69" value="openid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-68" vertex="1" connectable="0">
+          <mxGeometry x="-0.1004" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-70" value="Gateway" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dns_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="280" y="1393.5" width="76.5" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-71" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-72" target="fy3cLaKTtEcv1rsZ_gve-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-72" value="Keycloak" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.directory_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="650" y="1393.5" width="65" height="88.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-73" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-75" target="fy3cLaKTtEcv1rsZ_gve-72" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-74" value="openid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-73" vertex="1" connectable="0">
+          <mxGeometry x="-0.1811" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-75" value="Portail" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_2;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="642.27" y="1220" width="80.46" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-78" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-76" target="fy3cLaKTtEcv1rsZ_gve-77" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-93" value="1.accès portail" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-78" vertex="1" connectable="0">
+          <mxGeometry x="-0.3081" y="-1" relative="1" as="geometry">
+            <mxPoint x="19" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-143" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-76" target="fy3cLaKTtEcv1rsZ_gve-142" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="2106" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-145" value="6. accès page de l&#39;application" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-143" vertex="1" connectable="0">
+          <mxGeometry x="-0.3383" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-76" value="&lt;div&gt;Utilisateur Portail&lt;/div&gt;" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_2;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1694" width="80.46" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-84" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-77" target="LXXOMNzB1Mc0YpXWpMXF-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-94" value="3. autentification" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-84" vertex="1" connectable="0">
+          <mxGeometry x="-0.0512" y="3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-77" value="Page de login Keycloak" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.document;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="356.5" y="1688" width="47" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-85" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" edge="1" source="LXXOMNzB1Mc0YpXWpMXF-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="546.194375" y="1675.25" as="sourcePoint" />
+            <mxPoint x="130.62365384615393" y="1694" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="1620" />
+              <mxPoint x="546.46" y="1620" />
+              <mxPoint x="130.46" y="1620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-86" value="5.création cookies OIDC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-85" vertex="1" connectable="0">
+          <mxGeometry x="-0.0087" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-88" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="LXXOMNzB1Mc0YpXWpMXF-1" target="fy3cLaKTtEcv1rsZ_gve-87" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-95" value="4.verification credentials" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-88" vertex="1" connectable="0">
+          <mxGeometry x="-0.1508" relative="1" as="geometry">
+            <mxPoint x="13" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-83" value="Serveur IBM Websphere" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cache_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="500" y="1880" width="71" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-87" value="&lt;div&gt;LDAP&lt;/div&gt;&amp;nbsp;(IBM Tivoli)" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="990" y="1680.5" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-96" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-98" target="fy3cLaKTtEcv1rsZ_gve-101" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-97" value="1.accès Interactive" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-96" vertex="1" connectable="0">
+          <mxGeometry x="-0.3081" y="-1" relative="1" as="geometry">
+            <mxPoint x="19" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-147" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110.00294117647056" y="2473" as="sourcePoint" />
+            <mxPoint x="311.97" y="2596" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110.22" y="2596" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-150" value="6. accès page de l&#39;application" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-147" vertex="1" connectable="0">
+          <mxGeometry x="-0.6305" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-98" value="&lt;div&gt;Utilisateur Interactive&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_2;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="52.5" y="2413" width="80.46" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-99" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-101" target="fy3cLaKTtEcv1rsZ_gve-111" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519" y="2443" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-100" value="3. autentification (openid)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-99" vertex="1" connectable="0">
+          <mxGeometry x="-0.0512" y="3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-101" value="Page de login Keycloak" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.document;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="299.5" y="2407" width="47" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-105" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-111" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="552.390625" y="2394.25" as="sourcePoint" />
+            <mxPoint x="112.16365384615392" y="2413" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="615" y="2339" />
+              <mxPoint x="112" y="2339" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-106" value="5. token jwt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-105" vertex="1" connectable="0">
+          <mxGeometry x="-0.0087" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-107" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-111" target="fy3cLaKTtEcv1rsZ_gve-110" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="682.73" y="2444.8410138248846" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-108" value="4.verification credentials" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-107" vertex="1" connectable="0">
+          <mxGeometry x="-0.1508" relative="1" as="geometry">
+            <mxPoint x="13" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-110" value="&lt;div&gt;LDAP&lt;/div&gt;&amp;nbsp;(IBM Tivoli)" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="910" y="2395.75" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-111" value="Keycloak" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.directory_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="582.27" y="2396.5" width="65" height="88.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-125" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-127" target="fy3cLaKTtEcv1rsZ_gve-130" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-126" value="accès Interactive" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-125" vertex="1" connectable="0">
+          <mxGeometry x="-0.3081" y="-1" relative="1" as="geometry">
+            <mxPoint x="19" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-153" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-127" target="fy3cLaKTtEcv1rsZ_gve-151" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="92.33813397129188" y="3059" as="sourcePoint" />
+            <mxPoint x="317" y="2880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="3075" />
+              <mxPoint x="80" y="2880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-127" value="&lt;div&gt;Utilisateur Interactive&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=#82b366;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_2;fontSize=16;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="102.5" y="3045" width="80.46" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-128" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-130" target="fy3cLaKTtEcv1rsZ_gve-136" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="569" y="3075" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-129" value="autentification (openid)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-128" vertex="1" connectable="0">
+          <mxGeometry x="-0.0512" y="3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-130" value="Page de login Keycloak" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.document;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="349.5" y="3039" width="47" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-131" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-136" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="602.390625" y="3026.25" as="sourcePoint" />
+            <mxPoint x="162.16365384615392" y="3045" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="665" y="2971" />
+              <mxPoint x="162" y="2971" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-132" value="token jwt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-131" vertex="1" connectable="0">
+          <mxGeometry x="-0.0087" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-133" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-136" target="fy3cLaKTtEcv1rsZ_gve-135" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="732.73" y="3076.8410138248846" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-134" value="4.verification credentials" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-133" vertex="1" connectable="0">
+          <mxGeometry x="-0.1508" relative="1" as="geometry">
+            <mxPoint x="13" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-135" value="&lt;div&gt;LDAP&lt;/div&gt;&amp;nbsp;(IBM Tivoli)" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="960" y="3027.75" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-140" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665.0032103939647" y="3070" as="sourcePoint" />
+            <mxPoint x="142.86599999999999" y="3279" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="663.07" y="3324" />
+              <mxPoint x="143.07" y="3324" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-141" value="token jwt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-140" vertex="1" connectable="0">
+          <mxGeometry x="0.1065" y="2" relative="1" as="geometry">
+            <mxPoint x="-61" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-136" value="Keycloak" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.directory_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="632.27" y="3028.5" width="65" height="88.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-138" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-137" target="fy3cLaKTtEcv1rsZ_gve-130" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="373.5" y="3251" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-139" value="accès Portail" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="fy3cLaKTtEcv1rsZ_gve-138" vertex="1" connectable="0">
+          <mxGeometry x="-0.434" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-156" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-137" target="fy3cLaKTtEcv1rsZ_gve-152" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="3251" />
+              <mxPoint x="80" y="3380" />
+              <mxPoint x="80" y="3426" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-137" value="&lt;div&gt;Utilisateur Portail&lt;/div&gt;" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_2;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="102.5" y="3221" width="80.46" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-144" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-142" target="fy3cLaKTtEcv1rsZ_gve-83" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="536" y="2106" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-142" value="Pages de l&#39;application interne" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.document;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="300" y="2070" width="47" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-149" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-146" target="fy3cLaKTtEcv1rsZ_gve-148" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-146" value="Pages de l&#39;application Interactive" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.document;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="294.75" y="2560" width="47" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-148" value="&lt;div&gt;Serveur Interactive (Tomcat)&lt;/div&gt;" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cache_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="576.27" y="2550" width="71" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-155" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-151" target="fy3cLaKTtEcv1rsZ_gve-154" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-151" value="Pages de l&#39;application Interactive" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.document;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="343" y="2842.75" width="47" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-158" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="fy3cLaKTtEcv1rsZ_gve-152" target="fy3cLaKTtEcv1rsZ_gve-157" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-152" value="Pages de l&#39;application interne" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.document;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="356.5" y="3390" width="47" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-154" value="Serveur Interactive" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cache_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="579.27" y="2830" width="71" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fy3cLaKTtEcv1rsZ_gve-157" value="Serveur IBM Websphere" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cache_server;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="571" y="3380" width="71" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LXXOMNzB1Mc0YpXWpMXF-1" value="Keycloak SOCRAM" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.directory_server;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1680.5" width="65" height="88.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LXXOMNzB1Mc0YpXWpMXF-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LXXOMNzB1Mc0YpXWpMXF-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="727" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LXXOMNzB1Mc0YpXWpMXF-22" value="OIDC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="LXXOMNzB1Mc0YpXWpMXF-21">
+          <mxGeometry x="0.0667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LXXOMNzB1Mc0YpXWpMXF-13" value="Keycloak BDU" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.directory_server;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="697.27" y="2005.75" width="65" height="88.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LXXOMNzB1Mc0YpXWpMXF-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LXXOMNzB1Mc0YpXWpMXF-16" target="LXXOMNzB1Mc0YpXWpMXF-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LXXOMNzB1Mc0YpXWpMXF-16" value="Gateway" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dns_server;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="890" y="2006" width="76.5" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LXXOMNzB1Mc0YpXWpMXF-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LXXOMNzB1Mc0YpXWpMXF-17" target="LXXOMNzB1Mc0YpXWpMXF-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LXXOMNzB1Mc0YpXWpMXF-17" value="Interactive" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_2;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="2020" width="80.46" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
