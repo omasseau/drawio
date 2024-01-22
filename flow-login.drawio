@@ -1,0 +1,92 @@
+<mxfile host="app.diagrams.net" modified="2024-01-22T08:53:34.334Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="vVZYSv1JuSDiVCzZQbwy" version="22.1.21" type="github">
+  <diagram name="Page-1" id="NoCMix5AxapNaZjsdprf">
+    <mxGraphModel dx="1834" dy="1324" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="duX3-m8u0IR4x6bUEmk0-11" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="duX3-m8u0IR4x6bUEmk0-7" target="duX3-m8u0IR4x6bUEmk0-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-39" y="-32" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duX3-m8u0IR4x6bUEmk0-12" value="Accès page sécurisée" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="duX3-m8u0IR4x6bUEmk0-11">
+          <mxGeometry x="-0.2036" relative="1" as="geometry">
+            <mxPoint x="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duX3-m8u0IR4x6bUEmk0-15" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-280" y="107" as="sourcePoint" />
+            <mxPoint x="352" y="107" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duX3-m8u0IR4x6bUEmk0-16" value="&lt;div&gt;Login&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="duX3-m8u0IR4x6bUEmk0-15">
+          <mxGeometry x="0.4494" y="-1" relative="1" as="geometry">
+            <mxPoint x="-318" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duX3-m8u0IR4x6bUEmk0-7" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-295" y="-128" width="20" height="526" as="geometry" />
+        </mxCell>
+        <mxCell id="duX3-m8u0IR4x6bUEmk0-13" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-6" y="5" as="sourcePoint" />
+            <mxPoint x="346" y="5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duX3-m8u0IR4x6bUEmk0-14" value="Redirection page de login Keycloak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="duX3-m8u0IR4x6bUEmk0-13">
+          <mxGeometry x="-0.0795" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duX3-m8u0IR4x6bUEmk0-19" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-7" y="324" as="sourcePoint" />
+            <mxPoint x="-287" y="324" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duX3-m8u0IR4x6bUEmk0-20" value="cookie access token + refresh token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="duX3-m8u0IR4x6bUEmk0-19">
+          <mxGeometry x="-0.4786" y="-3" relative="1" as="geometry">
+            <mxPoint x="-65" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duX3-m8u0IR4x6bUEmk0-9" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="-128" width="20" height="575" as="geometry" />
+        </mxCell>
+        <mxCell id="duX3-m8u0IR4x6bUEmk0-17" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" target="duX3-m8u0IR4x6bUEmk0-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="239" as="sourcePoint" />
+            <mxPoint x="3" y="239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duX3-m8u0IR4x6bUEmk0-18" value="access token + refresh token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="duX3-m8u0IR4x6bUEmk0-17">
+          <mxGeometry x="0.3315" y="-1" relative="1" as="geometry">
+            <mxPoint x="56" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duX3-m8u0IR4x6bUEmk0-10" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="337" y="-131" width="20" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="duX3-m8u0IR4x6bUEmk0-24" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="duX3-m8u0IR4x6bUEmk0-10" target="duX3-m8u0IR4x6bUEmk0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="duX3-m8u0IR4x6bUEmk0-25" value="&lt;div&gt;Création session Keycloak&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="duX3-m8u0IR4x6bUEmk0-24">
+          <mxGeometry x="-0.5926" y="1" relative="1" as="geometry">
+            <mxPoint x="82" y="39" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duX3-m8u0IR4x6bUEmk0-27" value="Keycloak" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.directory_server;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="312" y="-173" width="65" height="88.5" as="geometry" />
+        </mxCell>
+        <mxCell id="duX3-m8u0IR4x6bUEmk0-28" value="Gateway" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dns_server;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="-166" width="76.5" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="duX3-m8u0IR4x6bUEmk0-29" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_2;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-346" y="-160" width="116" height="86.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
