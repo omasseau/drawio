@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-08T08:51:25.918Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="-RTUR5QujR5xGdLL2sTT" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-08T08:53:08.557Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="-dFD9MdQD7Rs8tBgbEM4" version="23.1.1" type="github">
   <diagram name="Page-1" id="0cTdit1bKc_Ym_qucfK5">
     <mxGraphModel dx="3034" dy="1724" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,6 +92,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MWsR9NhOi4AlFJ0MHyTv-164" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="MWsR9NhOi4AlFJ0MHyTv-11" target="MWsR9NhOi4AlFJ0MHyTv-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-pzp6EkCXluZw9pxXSIb-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="MWsR9NhOi4AlFJ0MHyTv-11" target="-pzp6EkCXluZw9pxXSIb-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MWsR9NhOi4AlFJ0MHyTv-11" value="Workflow" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
@@ -431,7 +434,7 @@
           <mxGeometry x="-74" y="95" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-pzp6EkCXluZw9pxXSIb-1" value="Formulaires" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="450" y="-49" width="120" height="60" as="geometry" />
+          <mxGeometry x="463" y="-52" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-pzp6EkCXluZw9pxXSIb-2" value="Viewer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-351" y="-317" width="120" height="60" as="geometry" />
