@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-08T11:47:33.485Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="tU3mumpD_FoyzMdEXWG1" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-08T13:29:42.892Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="FmXpOVt8d1X_9yhjuyp8" version="23.1.1" type="github">
   <diagram name="Page-1" id="0cTdit1bKc_Ym_qucfK5">
     <mxGraphModel dx="3512" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,7 +33,7 @@
         </mxCell>
         <mxCell id="MWsR9NhOi4AlFJ0MHyTv-38" value="Un document appartient à une archive" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="MWsR9NhOi4AlFJ0MHyTv-32" vertex="1" connectable="0">
           <mxGeometry x="0.1102" y="-2" relative="1" as="geometry">
-            <mxPoint x="95" y="15" as="offset" />
+            <mxPoint x="86" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MWsR9NhOi4AlFJ0MHyTv-55" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="MWsR9NhOi4AlFJ0MHyTv-1" target="MWsR9NhOi4AlFJ0MHyTv-54" edge="1">
@@ -61,7 +61,7 @@
             <mxPoint x="24" y="28" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWsR9NhOi4AlFJ0MHyTv-2" value="Index" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="MWsR9NhOi4AlFJ0MHyTv-2" value="Index" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-213" y="196" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-pzp6EkCXluZw9pxXSIb-22" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;shape=flexArrow;" edge="1" parent="1" source="MWsR9NhOi4AlFJ0MHyTv-3" target="MWsR9NhOi4AlFJ0MHyTv-114">
@@ -166,7 +166,7 @@
         <mxCell id="MWsR9NhOi4AlFJ0MHyTv-48" value="Monitoring/&lt;br&gt;Management" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="485" y="17" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWsR9NhOi4AlFJ0MHyTv-54" value="Classeur" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="MWsR9NhOi4AlFJ0MHyTv-54" value="Classeur" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-437" y="37" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MWsR9NhOi4AlFJ0MHyTv-57" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="MWsR9NhOi4AlFJ0MHyTv-56" target="MWsR9NhOi4AlFJ0MHyTv-54" edge="1">
@@ -395,18 +395,20 @@
           <mxGeometry x="-76" y="642" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MWsR9NhOi4AlFJ0MHyTv-150" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-1077" y="-532" width="317" height="270" as="geometry" />
+          <mxGeometry x="-1172" y="-596" width="536" height="476.44" as="geometry" />
         </mxCell>
         <mxCell id="MWsR9NhOi4AlFJ0MHyTv-152" value="Moteur d&#39;indexation (Solr)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-974" y="-422" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1073" y="-339" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWsR9NhOi4AlFJ0MHyTv-153" value="Recherche" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-967" y="-482" width="60" height="30" as="geometry" />
+        <mxCell id="MWsR9NhOi4AlFJ0MHyTv-153" value="Recherche documentaire" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-995" y="-501" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MWsR9NhOi4AlFJ0MHyTv-155" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;shape=flexArrow;" parent="1" source="MWsR9NhOi4AlFJ0MHyTv-50" target="MWsR9NhOi4AlFJ0MHyTv-152" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="MWsR9NhOi4AlFJ0MHyTv-155" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;shape=flexArrow;entryX=0.8;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;" parent="1" source="MWsR9NhOi4AlFJ0MHyTv-50" target="MWsR9NhOi4AlFJ0MHyTv-150" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-811" y="-319" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="MWsR9NhOi4AlFJ0MHyTv-169" value="La recherche peut (devrait) se faire via Solr" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="MWsR9NhOi4AlFJ0MHyTv-155" vertex="1" connectable="0">
+        <mxCell id="MWsR9NhOi4AlFJ0MHyTv-169" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="MWsR9NhOi4AlFJ0MHyTv-155" vertex="1" connectable="0">
           <mxGeometry x="0.1477" y="-1" relative="1" as="geometry">
             <mxPoint x="-4" y="26" as="offset" />
           </mxGeometry>
@@ -468,13 +470,13 @@
         <mxCell id="-pzp6EkCXluZw9pxXSIb-27" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="MWsR9NhOi4AlFJ0MHyTv-50" target="MWsR9NhOi4AlFJ0MHyTv-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MWsR9NhOi4AlFJ0MHyTv-50" value="Recherche" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="MWsR9NhOi4AlFJ0MHyTv-50" value="Recherche" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-437" y="-64" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-pzp6EkCXluZw9pxXSIb-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="-pzp6EkCXluZw9pxXSIb-30" target="MWsR9NhOi4AlFJ0MHyTv-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-pzp6EkCXluZw9pxXSIb-30" value="Mémos" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="-pzp6EkCXluZw9pxXSIb-30" value="Mémos" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-141" y="-93" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-pzp6EkCXluZw9pxXSIb-33" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="-pzp6EkCXluZw9pxXSIb-32" target="MWsR9NhOi4AlFJ0MHyTv-1">
@@ -500,6 +502,37 @@
         </mxCell>
         <mxCell id="-pzp6EkCXluZw9pxXSIb-64" value="Moteur d&#39;OCR (ABBYY)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="167" y="-594" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-pzp6EkCXluZw9pxXSIb-76" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="-pzp6EkCXluZw9pxXSIb-71" target="MWsR9NhOi4AlFJ0MHyTv-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-pzp6EkCXluZw9pxXSIb-71" value="&lt;div&gt;Document (metadata)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-902" y="-448" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-pzp6EkCXluZw9pxXSIb-72" value="Content full-text" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-902" y="-388" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-pzp6EkCXluZw9pxXSIb-75" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="-pzp6EkCXluZw9pxXSIb-74" target="-pzp6EkCXluZw9pxXSIb-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-pzp6EkCXluZw9pxXSIb-74" value="Recherche" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-902" y="-279" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-pzp6EkCXluZw9pxXSIb-77" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;shape=flexArrow;startArrow=block;exitX=0.279;exitY=0.172;exitDx=0;exitDy=0;exitPerimeter=0;startFill=0;endArrow=none;endFill=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWsR9NhOi4AlFJ0MHyTv-8" target="-pzp6EkCXluZw9pxXSIb-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-368" y="-82" as="sourcePoint" />
+            <mxPoint x="-742" y="-311" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-pzp6EkCXluZw9pxXSIb-78" value="La recherche peut (devrait)&lt;br&gt; se faire via Solr " style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="-pzp6EkCXluZw9pxXSIb-77">
+          <mxGeometry x="0.1477" y="-1" relative="1" as="geometry">
+            <mxPoint x="-14" y="118" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-pzp6EkCXluZw9pxXSIb-80" value="Les metatada du document +&lt;br&gt;index+ classeurs +&lt;br&gt;mémos + versions &lt;br&gt;doivent être syncrhonisés" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="-pzp6EkCXluZw9pxXSIb-77">
+          <mxGeometry x="0.0318" y="3" relative="1" as="geometry">
+            <mxPoint x="-34" y="-47" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
