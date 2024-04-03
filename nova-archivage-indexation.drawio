@@ -1,9 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2024-04-03T16:36:15.760Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" version="24.0.7" etag="_kREtEQqLSH5laCtkhq5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-03T16:40:52.574Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="fmI89_vRL5yDuz6zTzIA" version="24.0.7" type="github">
   <diagram name="Page-1" id="E2yfkzDE8iysMh4Jla2R">
-    <mxGraphModel>
+    <mxGraphModel dx="1834" dy="1324" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="76WruIiigmXGjwVG2Zs7-16" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-156" width="432" height="432" as="geometry" />
+        </mxCell>
+        <mxCell id="76WruIiigmXGjwVG2Zs7-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-287" y="-156" width="432" height="432" as="geometry" />
+        </mxCell>
+        <mxCell id="76WruIiigmXGjwVG2Zs7-1" value="Stockage" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-239" y="-40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76WruIiigmXGjwVG2Zs7-2" value="Chiffrement" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-107" y="68" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76WruIiigmXGjwVG2Zs7-3" value="Backup" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-241" y="68" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76WruIiigmXGjwVG2Zs7-4" value="Profil d&#39;Archivage" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-109" y="-45" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76WruIiigmXGjwVG2Zs7-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="76WruIiigmXGjwVG2Zs7-5" target="76WruIiigmXGjwVG2Zs7-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="76WruIiigmXGjwVG2Zs7-18" value="archive number" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="76WruIiigmXGjwVG2Zs7-17">
+          <mxGeometry x="0.121" y="1" relative="1" as="geometry">
+            <mxPoint x="6" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="76WruIiigmXGjwVG2Zs7-5" value="Document" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="273" y="-43" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76WruIiigmXGjwVG2Zs7-7" value="Archive" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="11" y="-40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76WruIiigmXGjwVG2Zs7-8" value="Metadata techniques" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="11" y="68" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76WruIiigmXGjwVG2Zs7-9" value="Metadata business (Index)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="273" y="79" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76WruIiigmXGjwVG2Zs7-10" value="Profil Documentaire (Type de document)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="388" y="-40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76WruIiigmXGjwVG2Zs7-12" value="Viewer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="499" y="-40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76WruIiigmXGjwVG2Zs7-13" value="Indexation Full-Text (Solr)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="386" y="79" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76WruIiigmXGjwVG2Zs7-14" value="Recherche" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="499" y="79" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
