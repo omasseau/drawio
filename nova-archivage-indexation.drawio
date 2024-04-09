@@ -1,58 +1,126 @@
-<mxfile host="app.diagrams.net" modified="2024-04-03T16:40:52.574Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="fmI89_vRL5yDuz6zTzIA" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-09T10:13:26.600Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="7-y4SSeTihvleVrsnb3R" version="24.2.2" type="github">
   <diagram name="Page-1" id="E2yfkzDE8iysMh4Jla2R">
-    <mxGraphModel dx="1834" dy="1324" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2393" dy="1427" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="76WruIiigmXGjwVG2Zs7-16" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="210" y="-156" width="432" height="432" as="geometry" />
+        <mxCell id="76WruIiigmXGjwVG2Zs7-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-405" y="-156" width="544" height="544" as="geometry" />
         </mxCell>
-        <mxCell id="76WruIiigmXGjwVG2Zs7-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-287" y="-156" width="432" height="432" as="geometry" />
+        <mxCell id="76WruIiigmXGjwVG2Zs7-16" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="210" y="-156" width="546" height="546" as="geometry" />
         </mxCell>
-        <mxCell id="76WruIiigmXGjwVG2Zs7-1" value="Stockage" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-239" y="-40" width="80" height="80" as="geometry" />
+        <mxCell id="76WruIiigmXGjwVG2Zs7-1" value="Stockage" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-325" y="-33" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="76WruIiigmXGjwVG2Zs7-2" value="Chiffrement" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-107" y="68" width="80" height="80" as="geometry" />
+        <mxCell id="76WruIiigmXGjwVG2Zs7-2" value="Chiffrement" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-193" y="75" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="76WruIiigmXGjwVG2Zs7-3" value="Backup" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-241" y="68" width="80" height="80" as="geometry" />
+        <mxCell id="76WruIiigmXGjwVG2Zs7-3" value="Backup" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-327" y="75" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="76WruIiigmXGjwVG2Zs7-4" value="Profil d&#39;Archivage" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-109" y="-45" width="80" height="80" as="geometry" />
+        <mxCell id="76WruIiigmXGjwVG2Zs7-4" value="Politique d&#39;archivage (actuellement profil)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-195" y="-38" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="76WruIiigmXGjwVG2Zs7-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="76WruIiigmXGjwVG2Zs7-5" target="76WruIiigmXGjwVG2Zs7-7">
+        <mxCell id="76WruIiigmXGjwVG2Zs7-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="76WruIiigmXGjwVG2Zs7-5" target="76WruIiigmXGjwVG2Zs7-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="76WruIiigmXGjwVG2Zs7-18" value="archive number" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="76WruIiigmXGjwVG2Zs7-17">
+        <mxCell id="76WruIiigmXGjwVG2Zs7-18" value="stored_file_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="76WruIiigmXGjwVG2Zs7-17" vertex="1" connectable="0">
           <mxGeometry x="0.121" y="1" relative="1" as="geometry">
-            <mxPoint x="6" y="-21" as="offset" />
+            <mxPoint x="3" y="-22" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="76WruIiigmXGjwVG2Zs7-5" value="Document" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="273" y="-43" width="80" height="80" as="geometry" />
+        <mxCell id="76WruIiigmXGjwVG2Zs7-5" value="Document (abstraction logique)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="312" y="-42" width="83" height="83" as="geometry" />
         </mxCell>
-        <mxCell id="76WruIiigmXGjwVG2Zs7-7" value="Archive" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="11" y="-40" width="80" height="80" as="geometry" />
+        <mxCell id="76WruIiigmXGjwVG2Zs7-7" value="Fichier" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1" y="-42" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="76WruIiigmXGjwVG2Zs7-8" value="Metadata techniques" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="11" y="68" width="80" height="80" as="geometry" />
+        <mxCell id="76WruIiigmXGjwVG2Zs7-8" value="Metadata techniques : &lt;br&gt;&lt;div&gt;stored_file_id&lt;br&gt;&lt;/div&gt;&lt;div&gt;nom&lt;br&gt;&lt;/div&gt;&lt;div&gt;date_stockage&lt;br&gt;utilisateur&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-75" y="75" width="93" height="93" as="geometry" />
         </mxCell>
-        <mxCell id="76WruIiigmXGjwVG2Zs7-9" value="Metadata business (Index)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="273" y="79" width="80" height="80" as="geometry" />
+        <mxCell id="76WruIiigmXGjwVG2Zs7-9" value="Metadata business (Index)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="538" y="61" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="76WruIiigmXGjwVG2Zs7-10" value="Profil Documentaire (Type de document)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="388" y="-40" width="80" height="80" as="geometry" />
+        <mxCell id="76WruIiigmXGjwVG2Zs7-10" value="Profil Documentaire (Type de document)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="425" y="-45" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="76WruIiigmXGjwVG2Zs7-12" value="Viewer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="499" y="-40" width="80" height="80" as="geometry" />
+        <mxCell id="76WruIiigmXGjwVG2Zs7-12" value="Viewer" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="538" y="-42" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="76WruIiigmXGjwVG2Zs7-13" value="Indexation Full-Text (Solr)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="386" y="79" width="80" height="80" as="geometry" />
+        <mxCell id="76WruIiigmXGjwVG2Zs7-13" value="Indexation Full-Text (Solr)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="428" y="65" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="76WruIiigmXGjwVG2Zs7-14" value="Recherche" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="499" y="79" width="80" height="80" as="geometry" />
+        <mxCell id="76WruIiigmXGjwVG2Zs7-14" value="Recherche de document" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="312" y="65" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t02Fe3L6MwSH5T_PzjBc-25" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="t02Fe3L6MwSH5T_PzjBc-1" target="76WruIiigmXGjwVG2Zs7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t02Fe3L6MwSH5T_PzjBc-1" value="Archivage / Stockage de fichiers physiques" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-193" y="-102" width="104" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="t02Fe3L6MwSH5T_PzjBc-2" value="Indexation / Recherche de documents" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="434" y="-111" width="104" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="t02Fe3L6MwSH5T_PzjBc-3" value="Rétention/Purge" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-327" y="178" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t02Fe3L6MwSH5T_PzjBc-4" value="Permissions" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-193" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t02Fe3L6MwSH5T_PzjBc-5" value="Permissions" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="541" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t02Fe3L6MwSH5T_PzjBc-7" value="Download" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-75" y="183" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t02Fe3L6MwSH5T_PzjBc-8" value="Classeur" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="312" y="183" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t02Fe3L6MwSH5T_PzjBc-9" value="Recherche de de fichier" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="42" y="81.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t02Fe3L6MwSH5T_PzjBc-14" value="Archive" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-97" y="-42" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t02Fe3L6MwSH5T_PzjBc-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.21;entryY=0.097;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="t02Fe3L6MwSH5T_PzjBc-15" target="76WruIiigmXGjwVG2Zs7-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t02Fe3L6MwSH5T_PzjBc-17" value="Stockage de fichiers" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="t02Fe3L6MwSH5T_PzjBc-16">
+          <mxGeometry x="0.1235" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t02Fe3L6MwSH5T_PzjBc-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="t02Fe3L6MwSH5T_PzjBc-15" target="76WruIiigmXGjwVG2Zs7-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t02Fe3L6MwSH5T_PzjBc-21" value="Recherche de documents indexés" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="t02Fe3L6MwSH5T_PzjBc-20">
+          <mxGeometry x="0.009" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t02Fe3L6MwSH5T_PzjBc-15" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-113" y="-363" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t02Fe3L6MwSH5T_PzjBc-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.438;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="t02Fe3L6MwSH5T_PzjBc-15" target="76WruIiigmXGjwVG2Zs7-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t02Fe3L6MwSH5T_PzjBc-19" value="Indexation document (représenté physiquement par un fichier)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="t02Fe3L6MwSH5T_PzjBc-18">
+          <mxGeometry x="-0.0421" relative="1" as="geometry">
+            <mxPoint x="38" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t02Fe3L6MwSH5T_PzjBc-22" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.569;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="t02Fe3L6MwSH5T_PzjBc-15" target="76WruIiigmXGjwVG2Zs7-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t02Fe3L6MwSH5T_PzjBc-23" value="Recherche de fichiers" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="t02Fe3L6MwSH5T_PzjBc-22">
+          <mxGeometry x="-0.2156" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t02Fe3L6MwSH5T_PzjBc-24" value="Checksum" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-193" y="276" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
