@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T08:14:52.616Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="MJy19oGbMSQbAmM3-4Uu" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-15T08:18:21.044Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="7y95OdN61QDX0kRUnUuD" version="24.2.3" type="github">
   <diagram name="Page-1" id="GRHu8RxMNXAJBxAdQUsW">
     <mxGraphModel dx="2234" dy="1204" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,7 +85,7 @@
         <mxCell id="-7W27BLvMPK36RZUXrOV-25" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="-7W27BLvMPK36RZUXrOV-20" target="-7W27BLvMPK36RZUXrOV-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-7W27BLvMPK36RZUXrOV-20" value="Valide la requête GDPR et résultats associés (via tâche de workflow &#39;Request validation&#39;)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-7W27BLvMPK36RZUXrOV-20" value="Valide la requête GDPR et résultats associés (via tâche de workflow &#39;GDPR Request validation&#39;)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-376" y="308.25" width="168" height="130" as="geometry" />
         </mxCell>
         <mxCell id="-7W27BLvMPK36RZUXrOV-22" value="Statut résultats = PENDING" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -161,7 +161,7 @@
         <mxCell id="-7W27BLvMPK36RZUXrOV-53" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="-7W27BLvMPK36RZUXrOV-49" target="-7W27BLvMPK36RZUXrOV-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-7W27BLvMPK36RZUXrOV-49" value="Rejette la requête GDPR et (via tâche de workflow &#39;Request validation&#39;)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-7W27BLvMPK36RZUXrOV-49" value="Rejette la requête GDPR et (via tâche de workflow &#39;GDPR Request validation&#39;)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-372" y="485" width="162" height="122.5" as="geometry" />
         </mxCell>
         <mxCell id="-7W27BLvMPK36RZUXrOV-50" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.027;entryY=0.349;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="-7W27BLvMPK36RZUXrOV-19" target="-7W27BLvMPK36RZUXrOV-49">
@@ -182,7 +182,7 @@
         <mxCell id="-7W27BLvMPK36RZUXrOV-71" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="-7W27BLvMPK36RZUXrOV-68" target="-7W27BLvMPK36RZUXrOV-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-7W27BLvMPK36RZUXrOV-68" value="Demande la restitution des résultats de la requête (via tâche de workflow &#39;Request validation&#39;)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-7W27BLvMPK36RZUXrOV-68" value="Demande la restitution des résultats de la requête (via tâche de workflow &#39;GDPR Request validation&#39;)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-373" y="764" width="178" height="134" as="geometry" />
         </mxCell>
         <mxCell id="-7W27BLvMPK36RZUXrOV-69" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="-7W27BLvMPK36RZUXrOV-19" target="-7W27BLvMPK36RZUXrOV-68">
