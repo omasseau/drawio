@@ -1,9 +1,257 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T07:53:06.964Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0" version="24.4.0" etag="NESq4KsDHIs-wG9PtYfQ" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-11T08:45:23.253Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0" etag="kwkqBjl5M1B62kjEPj0Y" version="24.4.0" type="github">
   <diagram name="Page-1" id="NzIRHr1t4w2bOF7lI3u0">
-    <mxGraphModel>
+    <mxGraphModel dx="2193" dy="1887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RFhdEVHIESapXe_oatIZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-1" target="RFhdEVHIESapXe_oatIZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-14" value="1) Création document physique" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RFhdEVHIESapXe_oatIZ-6">
+          <mxGeometry x="0.12" y="-2" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-1" target="RFhdEVHIESapXe_oatIZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-19" value="2) Création document logique &lt;br&gt;(id document physique&amp;nbsp; + metadata business)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RFhdEVHIESapXe_oatIZ-15">
+          <mxGeometry x="0.0231" y="-2" relative="1" as="geometry">
+            <mxPoint x="-28" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-1" value="Import" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-2" target="RFhdEVHIESapXe_oatIZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-2" target="RFhdEVHIESapXe_oatIZ-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-51" value="Conversion avant stockage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RFhdEVHIESapXe_oatIZ-50">
+          <mxGeometry x="0.35" relative="1" as="geometry">
+            <mxPoint y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-2" value="Stockage" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="310" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-3" target="RFhdEVHIESapXe_oatIZ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-3" target="RFhdEVHIESapXe_oatIZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-18" value="3) Notification nouveau document logique (id logique + physique)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RFhdEVHIESapXe_oatIZ-17">
+          <mxGeometry x="0.271" y="-1" relative="1" as="geometry">
+            <mxPoint x="55" y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-3" target="RFhdEVHIESapXe_oatIZ-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-53" value="&lt;div&gt;Demande déclenchement workflow&lt;/div&gt;&lt;div&gt;&amp;nbsp;sur base de règles business&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RFhdEVHIESapXe_oatIZ-52">
+          <mxGeometry x="0.3546" y="-3" relative="1" as="geometry">
+            <mxPoint x="46" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-3" target="RFhdEVHIESapXe_oatIZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-56" value="Dcoument logique &lt;br&gt;référence document physique" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RFhdEVHIESapXe_oatIZ-55">
+          <mxGeometry x="0.13" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-3" value="GED" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="310" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-4" target="RFhdEVHIESapXe_oatIZ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-27" value="6) Synchronisation &lt;br&gt;metadata + contenu dans Solr " style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RFhdEVHIESapXe_oatIZ-26">
+          <mxGeometry x="0.2698" relative="1" as="geometry">
+            <mxPoint x="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-4" target="RFhdEVHIESapXe_oatIZ-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="260" />
+              <mxPoint x="480" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-29" value="4) Récupération contenu + metadata techniques" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RFhdEVHIESapXe_oatIZ-28">
+          <mxGeometry x="-0.1569" y="-3" relative="1" as="geometry">
+            <mxPoint x="38" y="-67" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-4" target="RFhdEVHIESapXe_oatIZ-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="310" />
+              <mxPoint x="480" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-31" value="5) Récupération metadata business" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RFhdEVHIESapXe_oatIZ-30">
+          <mxGeometry x="-0.2296" y="-1" relative="1" as="geometry">
+            <mxPoint y="51" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-4" value="&lt;div&gt;Recherche&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="615" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-5" value="Workflow" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="930" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-8" target="RFhdEVHIESapXe_oatIZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-8" value="Document : &lt;br&gt;Fichier physique + metadata business" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="225" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-10" value="Document physique + metadata techniques" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-12" target="RFhdEVHIESapXe_oatIZ-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-12" value="Document logique + metadata business" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="310" y="505" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-24" value="Solr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-33" value="Politique de stockage" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.038;entryY=0.288;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;curved=0;dashed=1;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-33" target="RFhdEVHIESapXe_oatIZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-35" target="RFhdEVHIESapXe_oatIZ-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-35" value="Catégorie &lt;br&gt;(ex-Profile name)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="505" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-37" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.02;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-37" target="RFhdEVHIESapXe_oatIZ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-39" target="RFhdEVHIESapXe_oatIZ-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="378" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-71" value="Export document logique" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RFhdEVHIESapXe_oatIZ-57">
+          <mxGeometry x="-0.7532" y="-3" relative="1" as="geometry">
+            <mxPoint x="-33" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-39" value="Export/&lt;br&gt;Distribution" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="540" y="460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-45" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-45" target="RFhdEVHIESapXe_oatIZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-47" value="Recherche de documents sur base de metadata ou contenu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RFhdEVHIESapXe_oatIZ-46">
+          <mxGeometry x="-0.512" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-49" value="Conversion" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-58" target="RFhdEVHIESapXe_oatIZ-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="610" />
+              <mxPoint x="470" y="500" />
+              <mxPoint x="380" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-58" target="RFhdEVHIESapXe_oatIZ-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-63" value="Conversion avant visualisation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RFhdEVHIESapXe_oatIZ-62">
+          <mxGeometry x="-0.1333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-58" value="Visualisation" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="540" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-61" value="Conversion" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="540" y="710" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-64" target="RFhdEVHIESapXe_oatIZ-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="555" />
+              <mxPoint x="680" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-64" target="RFhdEVHIESapXe_oatIZ-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-64" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="525" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-67" target="RFhdEVHIESapXe_oatIZ-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-35" target="RFhdEVHIESapXe_oatIZ-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="620" />
+              <mxPoint x="-240" y="620" />
+              <mxPoint x="-240" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-67" value="Type de document" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="190" y="505" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-72" target="RFhdEVHIESapXe_oatIZ-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-74" value="&lt;div&gt;Export&lt;/div&gt;&lt;div&gt;&amp;nbsp;document physique&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RFhdEVHIESapXe_oatIZ-73">
+          <mxGeometry x="-0.6834" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-72" value="Export/&lt;br&gt;Distribution" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFhdEVHIESapXe_oatIZ-77" target="RFhdEVHIESapXe_oatIZ-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-77" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RFhdEVHIESapXe_oatIZ-79" value="Politique de rétention" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="505" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
