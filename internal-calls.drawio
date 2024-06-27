@@ -1,9 +1,185 @@
-<mxfile host="app.diagrams.net" modified="2024-06-27T09:42:46.043Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" version="24.5.4" etag="TFOLlUkrTnKxiCTqQMjt" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-27T10:08:25.808Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="SbOQMypu91BQXZI_Tv4i" version="24.6.3" type="github">
   <diagram name="Page-1" id="iLqDgEH3peDFEOUMq_Wz">
-    <mxGraphModel>
+    <mxGraphModel dx="2590" dy="1232" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EMLilNgzcVU6XajYED4--23" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="EMLilNgzcVU6XajYED4--6" target="EMLilNgzcVU6XajYED4--21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-139" y="276" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--25" value="3. internal call to B rest service + service account token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="EMLilNgzcVU6XajYED4--23">
+          <mxGeometry x="0.2254" y="-1" relative="1" as="geometry">
+            <mxPoint x="16" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--27" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="EMLilNgzcVU6XajYED4--6" target="EMLilNgzcVU6XajYED4--26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--28" value="2. get service account token for internal service call" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="EMLilNgzcVU6XajYED4--27">
+          <mxGeometry x="-0.177" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--6" value="Gateway - Proxy" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dns_server;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-177" y="54" width="76.5" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--22" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="EMLilNgzcVU6XajYED4--8" target="EMLilNgzcVU6XajYED4--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--24" value="1. internal call to B rest service" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="EMLilNgzcVU6XajYED4--22">
+          <mxGeometry x="-0.256" relative="1" as="geometry">
+            <mxPoint x="-17" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--8" value="Backend A" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.command_center;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="56" width="75.5" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--9" style="edgeStyle=none;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="EMLilNgzcVU6XajYED4--11" target="EMLilNgzcVU6XajYED4--6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-188" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--20" value="external call" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="EMLilNgzcVU6XajYED4--9">
+          <mxGeometry x="-0.1485" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--11" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-373" y="69" width="95" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--13" style="edgeStyle=none;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="EMLilNgzcVU6XajYED4--14" target="EMLilNgzcVU6XajYED4--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--14" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_2;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-543" y="67.75" width="87.17" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/browsers/Firefox.png;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-493" y="82.75" width="22" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--21" value="Backend B" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.command_center;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="205" y="228" width="75.5" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--26" value="Keycloak" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.directory_server;" vertex="1" parent="1">
+          <mxGeometry x="-171.25" y="-176" width="65" height="88.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--30" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="EMLilNgzcVU6XajYED4--34" target="EMLilNgzcVU6XajYED4--44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-132" y="994" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--31" value="3. internal call to B rest service + service account token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="EMLilNgzcVU6XajYED4--30">
+          <mxGeometry x="0.2254" y="-1" relative="1" as="geometry">
+            <mxPoint x="16" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--32" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="EMLilNgzcVU6XajYED4--34" target="EMLilNgzcVU6XajYED4--45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--33" value="2. get service account token for internal service call" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="EMLilNgzcVU6XajYED4--32">
+          <mxGeometry x="-0.177" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="-43" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--34" value="Gateway - Proxy" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dns_server;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="772" width="76.5" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--53" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeColor=default;" edge="1" parent="1" source="EMLilNgzcVU6XajYED4--37" target="EMLilNgzcVU6XajYED4--46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="453" />
+              <mxPoint x="-346" y="451" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--54" value="1.internal call to B rest service (on internal dedicated host or port)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#ff0000;" vertex="1" connectable="0" parent="EMLilNgzcVU6XajYED4--53">
+          <mxGeometry x="0.0277" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--37" value="Backend A" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.command_center;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="202" y="774" width="75.5" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--47" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="EMLilNgzcVU6XajYED4--40" target="EMLilNgzcVU6XajYED4--46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-410" y="814.6982608695653" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--49" value="external call (on external host or port)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="EMLilNgzcVU6XajYED4--47">
+          <mxGeometry x="0.2162" relative="1" as="geometry">
+            <mxPoint x="-28" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--40" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-707" y="785" width="95" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--41" style="edgeStyle=none;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="EMLilNgzcVU6XajYED4--42" target="EMLilNgzcVU6XajYED4--40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--42" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_2;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-846" y="782" width="87.17" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--43" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/browsers/Firefox.png;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="800.75" width="22" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--44" value="Backend B" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.command_center;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="212" y="946" width="75.5" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--45" value="Keycloak" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.directory_server;" vertex="1" parent="1">
+          <mxGeometry x="-164.25" y="542" width="65" height="88.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--60" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="EMLilNgzcVU6XajYED4--46" target="EMLilNgzcVU6XajYED4--34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--61" value="internal requests" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#FF3333;" vertex="1" connectable="0" parent="EMLilNgzcVU6XajYED4--60">
+          <mxGeometry x="-0.1568" y="-4" relative="1" as="geometry">
+            <mxPoint x="9" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--62" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-310" y="841.9996531791905" as="sourcePoint" />
+            <mxPoint x="-170" y="843" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--63" value="external requests" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#FF3333;" vertex="1" connectable="0" parent="EMLilNgzcVU6XajYED4--62">
+          <mxGeometry x="0.2429" relative="1" as="geometry">
+            <mxPoint x="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--65" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-311.25" y="788.9996531791905" as="sourcePoint" />
+            <mxPoint x="-171.25" y="789.8089017341042" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--46" value="Reverse-proxy / load-balancer" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dhcp_server;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-386" y="772" width="76" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--51" value="X-Forwarded-For ?&lt;br&gt;X-Real-IP?&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;rounded=1;labelBackgroundColor=none;fontColor=#004080;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-242.0010330472744" y="778.9961532149672" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--55" value="Besoin de connaitre l&#39;origine réelle de l&#39;appelant pour savoir si vrai appel interne" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-66" y="708" width="210" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--56" value="&lt;font color=&quot;#ff3333&quot;&gt;PROXY__INTERNAL_IPS&lt;br&gt;PROXY__INTERNAL_HOSTS&lt;br&gt;PROXY__INTERNAL_DEDICATED_HTTP(s)_PORT&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;rounded=1;labelBackgroundColor=none;fontColor=#004080;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="41.998966952725596" y="799.9961532149672" as="geometry">
+            <mxPoint x="6" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--57" value="Besoin de connaitre l&#39;origine réelle de l&#39;appelant pour savoir si vrai appel interne" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-100.5" y="126" width="210" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="EMLilNgzcVU6XajYED4--58" value="&lt;font color=&quot;#ff3333&quot;&gt;PROXY__INTERNAL_IPS&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;rounded=1;labelBackgroundColor=none;fontColor=#004080;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="4.4989669527255955" y="206.9961532149672" as="geometry">
+            <mxPoint x="6" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
