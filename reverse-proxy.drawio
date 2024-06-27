@@ -1,9 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2024-06-27T09:22:36.208Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" version="24.5.4" etag="rXmklJzEGj9FDXFhMrQR" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-27T09:40:33.229Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="C4YVtNlpdx75o-N8wBng" version="24.5.4" type="github">
   <diagram name="Page-1" id="0PoPwUdOxHiClXMXijNw">
-    <mxGraphModel>
+    <mxGraphModel dx="2234" dy="1232" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="B64A5uxhz-rAwEu3RKfP-3" style="edgeStyle=none;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="B64A5uxhz-rAwEu3RKfP-1" target="B64A5uxhz-rAwEu3RKfP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B64A5uxhz-rAwEu3RKfP-9" value="X-Forwarded-Proto ?&lt;br&gt;X-Forwarded-Host ?&lt;br&gt;X-Forwarded-Port ?" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;rounded=1;labelBackgroundColor=none;fontColor=#004080;" vertex="1" connectable="0" parent="B64A5uxhz-rAwEu3RKfP-3">
+          <mxGeometry x="0.1825" y="1" relative="1" as="geometry">
+            <mxPoint x="-14" y="-34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B64A5uxhz-rAwEu3RKfP-1" value="Reverse-proxy / load-balancer" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dhcp_server;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-188" y="55" width="76" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="B64A5uxhz-rAwEu3RKfP-5" style="edgeStyle=none;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="B64A5uxhz-rAwEu3RKfP-2" target="B64A5uxhz-rAwEu3RKfP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B64A5uxhz-rAwEu3RKfP-21" style="edgeStyle=none;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="101.19275990099004" y="51.75" as="sourcePoint" />
+            <mxPoint x="101" y="-104" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B64A5uxhz-rAwEu3RKfP-2" value="Gateway" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dns_server;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="68" y="51.75" width="76.5" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="B64A5uxhz-rAwEu3RKfP-18" value="Redirect - public_scheme://public_host:public_port/..." style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="B64A5uxhz-rAwEu3RKfP-4" target="B64A5uxhz-rAwEu3RKfP-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="369" y="282" />
+              <mxPoint x="-501" y="282" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B64A5uxhz-rAwEu3RKfP-4" value="Backend" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.command_center;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="331" y="50" width="75.5" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="B64A5uxhz-rAwEu3RKfP-7" style="edgeStyle=none;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="B64A5uxhz-rAwEu3RKfP-6" target="B64A5uxhz-rAwEu3RKfP-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B64A5uxhz-rAwEu3RKfP-8" value="PROXY__PUBLIC_PROXY_SCHEME&lt;br&gt;PROXY__PUBLIC_PROXY_HOST&lt;br&gt;PROXY_PUBLIC_PROXY_PORT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;rounded=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="B64A5uxhz-rAwEu3RKfP-7">
+          <mxGeometry x="-0.2366" y="1" relative="1" as="geometry">
+            <mxPoint x="-78" y="-65" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B64A5uxhz-rAwEu3RKfP-6" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-373" y="69" width="95" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="B64A5uxhz-rAwEu3RKfP-10" value="X-Forwarded-Proto&lt;br&gt;X-Forwarded-Host&lt;br&gt;&lt;div&gt;X-Forwarded-Port&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;rounded=1;labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="225.00405753818112" y="63.996569303487476" as="geometry">
+            <mxPoint x="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B64A5uxhz-rAwEu3RKfP-16" style="edgeStyle=none;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="B64A5uxhz-rAwEu3RKfP-11" target="B64A5uxhz-rAwEu3RKfP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B64A5uxhz-rAwEu3RKfP-11" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.laptop_2;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-545" y="72" width="87.17" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="B64A5uxhz-rAwEu3RKfP-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/browsers/Firefox.png;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-499" y="87" width="26" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="B64A5uxhz-rAwEu3RKfP-19" value="PROXY__IS_BEHIND_REVERSE_PROXY_OR_LOAD_BALANCER ?" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;rounded=1;labelBackgroundColor=none;fontColor=#b70000;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="112" y="-119" as="geometry" />
+        </mxCell>
+        <mxCell id="B64A5uxhz-rAwEu3RKfP-22" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=1;fontSize=12;startSize=8;endSize=8;curved=1;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="140" relative="1" as="geometry">
+            <mxPoint x="-199" as="sourcePoint" />
+            <mxPoint x="-70" y="-103" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B64A5uxhz-rAwEu3RKfP-23" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=1;fontSize=12;startSize=8;endSize=8;curved=1;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="140" relative="1" as="geometry">
+            <mxPoint x="183" y="-97" as="sourcePoint" />
+            <mxPoint x="235" y="33" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B64A5uxhz-rAwEu3RKfP-24" value="Besoin de connaitre scheme/host/port d&#39;origine pour générer les redirections" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="322" y="-21" width="210" height="64" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
