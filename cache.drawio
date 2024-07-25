@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-25T09:50:29.543Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="zHD6aRSnBYa153LeQg8x" version="24.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-25T10:05:00.676Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="WeGMnTbUkghvdAfct1el" version="24.6.3" type="github">
   <diagram name="Page-1" id="AIwLkEZTtaAy5-5fSxSE">
-    <mxGraphModel dx="2234" dy="2152" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2234" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -344,6 +344,12 @@
           <mxGeometry x="-87.99894627535062" y="679.9962753833173" as="geometry">
             <mxPoint x="37" y="518" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-191" value="Avoir un Near cache est optionnel (choix se fait au niveau de la config)" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.9;" vertex="1" parent="1">
+          <mxGeometry x="-467" y="572" width="120" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-193" value="Avoir un Near cache est optionnel (choix se fait au niveau de la config)" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.9;" vertex="1" parent="1">
+          <mxGeometry x="-469" y="1218" width="120" height="99" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
