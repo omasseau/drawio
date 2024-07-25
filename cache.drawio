@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-25T09:20:39.135Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="_kJH5ta-17djS_DmBLrW" version="24.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-25T09:35:33.972Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="4vL2rnL1kEMES8xS8rlR" version="24.6.3" type="github">
   <diagram name="Page-1" id="AIwLkEZTtaAy5-5fSxSE">
-    <mxGraphModel dx="1834" dy="1352" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2234" dy="2152" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,7 +97,11 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lVMmo4o-01yK5qw_qF8T-81" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="lVMmo4o-01yK5qw_qF8T-85" target="lVMmo4o-01yK5qw_qF8T-96">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="341" y="622" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="lVMmo4o-01yK5qw_qF8T-82" value="synchronisation gérée de manière&lt;br&gt; transparente&lt;br&gt; par l&#39;implémentation &lt;br&gt;du cache distribué" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="lVMmo4o-01yK5qw_qF8T-81">
           <mxGeometry x="0.4071" y="-4" relative="1" as="geometry">
@@ -241,10 +245,99 @@
           <mxGeometry x="-349" y="1266" width="57" height="78" as="geometry" />
         </mxCell>
         <mxCell id="lVMmo4o-01yK5qw_qF8T-145" value="Near cache" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F04641;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="192" y="1461" width="57" height="78" as="geometry" />
+          <mxGeometry x="191" y="1447" width="57" height="78" as="geometry" />
         </mxCell>
         <mxCell id="lVMmo4o-01yK5qw_qF8T-146" value="Near cache" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F04641;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
           <mxGeometry x="-353" y="1458" width="57" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-153" value="Instance 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=5;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;align=left;spacingRight=0;spacingLeft=10;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="-418" y="-793" width="235" height="189" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-154" value="Cache local" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-406" y="-728.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-155" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="lVMmo4o-01yK5qw_qF8T-157" target="lVMmo4o-01yK5qw_qF8T-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-156" value="update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="lVMmo4o-01yK5qw_qF8T-155">
+          <mxGeometry x="-0.25" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-157" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-326" y="-902" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-180" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="lVMmo4o-01yK5qw_qF8T-158" target="lVMmo4o-01yK5qw_qF8T-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-181" value="message : invalidation cache" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="lVMmo4o-01yK5qw_qF8T-180">
+          <mxGeometry x="0.1776" y="-3" relative="1" as="geometry">
+            <mxPoint x="-15" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-158" value="Broker client" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-257" y="-729.5" width="60" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-160" value="Instance 3" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=5;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;align=left;spacingRight=0;spacingLeft=10;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="-418" y="-543" width="235" height="189" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-161" value="Cache local" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-407" y="-478.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-162" value="Broker client" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-257" y="-480.5" width="60" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-164" value="Instance 2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=5;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;align=left;spacingRight=0;spacingLeft=10;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="322" y="-786.5" width="235" height="189" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-165" value="Cache local" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-727.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-166" value="Broker client" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="332" y="-727.5" width="60" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-168" value="Instance 2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=5;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;align=left;spacingRight=0;spacingLeft=10;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="322" y="-542.5" width="235" height="189" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-169" value="Cache local" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="423" y="-474.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-170" value="Broker client" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="338" y="-475.5" width="60" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-177" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;" edge="1" parent="1" source="lVMmo4o-01yK5qw_qF8T-174" target="lVMmo4o-01yK5qw_qF8T-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-174" value="Messaging broker centralisé" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-751.75" width="120" height="106.5" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-178" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;" edge="1" parent="1" source="lVMmo4o-01yK5qw_qF8T-175" target="lVMmo4o-01yK5qw_qF8T-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-175" value="&lt;div&gt;Messaging broker centralisé (réplica 1)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-621" width="120" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-176" value="&lt;div&gt;Messaging broker centralisé (réplica 2)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-482" width="120" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-182" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.463;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="lVMmo4o-01yK5qw_qF8T-174" target="lVMmo4o-01yK5qw_qF8T-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-185" value="livraison message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="lVMmo4o-01yK5qw_qF8T-182">
+          <mxGeometry x="0.0214" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-183" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.009;entryY=0.537;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="lVMmo4o-01yK5qw_qF8T-174" target="lVMmo4o-01yK5qw_qF8T-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-186" value="livraison message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="lVMmo4o-01yK5qw_qF8T-183">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lVMmo4o-01yK5qw_qF8T-184" value="livraison message" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.004;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="lVMmo4o-01yK5qw_qF8T-174" target="lVMmo4o-01yK5qw_qF8T-160">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
