@@ -1,9 +1,65 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.4">
   <diagram name="Page-1" id="XDAEPJISOKnaoPxLbQnY">
-    <mxGraphModel>
+    <mxGraphModel dx="2487" dy="1520" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NPT4eRhCtuMLXGJLeDj0-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NPT4eRhCtuMLXGJLeDj0-1" target="NPT4eRhCtuMLXGJLeDj0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NPT4eRhCtuMLXGJLeDj0-1" value="&lt;div&gt;nginx.conf&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0095db;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="110" y="-164" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NPT4eRhCtuMLXGJLeDj0-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NPT4eRhCtuMLXGJLeDj0-2" target="NPT4eRhCtuMLXGJLeDj0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NPT4eRhCtuMLXGJLeDj0-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NPT4eRhCtuMLXGJLeDj0-2" target="NPT4eRhCtuMLXGJLeDj0-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NPT4eRhCtuMLXGJLeDj0-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NPT4eRhCtuMLXGJLeDj0-2" target="NPT4eRhCtuMLXGJLeDj0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NPT4eRhCtuMLXGJLeDj0-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NPT4eRhCtuMLXGJLeDj0-2" target="NPT4eRhCtuMLXGJLeDj0-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NPT4eRhCtuMLXGJLeDj0-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NPT4eRhCtuMLXGJLeDj0-2" target="NPT4eRhCtuMLXGJLeDj0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NPT4eRhCtuMLXGJLeDj0-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NPT4eRhCtuMLXGJLeDj0-2" target="NPT4eRhCtuMLXGJLeDj0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NPT4eRhCtuMLXGJLeDj0-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NPT4eRhCtuMLXGJLeDj0-2" target="NPT4eRhCtuMLXGJLeDj0-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NPT4eRhCtuMLXGJLeDj0-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NPT4eRhCtuMLXGJLeDj0-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="896.95652173913" y="167" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NPT4eRhCtuMLXGJLeDj0-2" value="&lt;div&gt;nginx-gateway-common.conf&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0095db;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="91.5" y="-63" width="157" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NPT4eRhCtuMLXGJLeDj0-4" value="&lt;div&gt;mime.types&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0095db;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-363" y="-63" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NPT4eRhCtuMLXGJLeDj0-5" value="nginx-gateway-http-upstreams.conf" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0095db;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-476" y="172" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NPT4eRhCtuMLXGJLeDj0-6" value="nginx-gateway-http-ssl.conf" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0095db;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-252" y="170" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NPT4eRhCtuMLXGJLeDj0-7" value="nginx-gateway-http-parameters.conf" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0095db;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-28" y="170" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NPT4eRhCtuMLXGJLeDj0-8" value="nginx-gateway-server-portal.conf" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0095db;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="413" y="170" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NPT4eRhCtuMLXGJLeDj0-9" value="nginx-gateway-server-default.conf" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0095db;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="192" y="170" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NPT4eRhCtuMLXGJLeDj0-11" value="nginx-gateway-server-grpc.conf" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0095db;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="634" y="170" width="205" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
