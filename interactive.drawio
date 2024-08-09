@@ -1,9 +1,234 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.6">
   <diagram name="Page-1" id="mQtRlN96GZHrQYOkIhaN">
-    <mxGraphModel>
+    <mxGraphModel dx="2634" dy="1232" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-28" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-25" target="X8OBtTKPQ86jGMtwhGi1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-34" value="&lt;div&gt;récupère client de Production service pour faire l&#39;appel GRPC.&lt;/div&gt;&lt;div&gt;ex: productionService.getRepositoryServiceClient().deleteTemplate()&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="X8OBtTKPQ86jGMtwhGi1-28">
+          <mxGeometry x="0.2621" y="-2" relative="1" as="geometry">
+            <mxPoint x="-2" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-25" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0095db;strokeWidth=3;arcSize=15;fontFamily=Cascadia code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCascadia%2Bcode;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-176" y="352" width="629" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-1" value="BdocProduction" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#001C54;fontColor=#002058;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;strokeWidth=3;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="65" y="-96" width="143" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-3" target="X8OBtTKPQ86jGMtwhGi1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-3" value="ProductionService" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3.5" y="235" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-7" target="X8OBtTKPQ86jGMtwhGi1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-7" value="bdoc-production-commons.jar" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Cascadia code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCascadia%2Bcode;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="24.5" y="108" width="224" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-9" value="Ensemble de définitions de services GRPC" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.18;" vertex="1" parent="1">
+          <mxGeometry x="226" y="24" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-12" value="Instancie des clients pour chaque service GRPC" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.18;" vertex="1" parent="1">
+          <mxGeometry x="254" y="155" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;fillColor=#f8cecc;strokeColor=#b85450;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-14" target="X8OBtTKPQ86jGMtwhGi1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-30" value="instancie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="X8OBtTKPQ86jGMtwhGi1-15">
+          <mxGeometry x="-0.1715" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-14" value="MiddlewareInterface" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-667" y="303" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-17" value="Reçoit en input la config permettant d&#39;appeler BdocProduction et instancie les services. Agit en tant que façade pour ces services" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;" vertex="1" parent="1">
+          <mxGeometry x="-409" y="191" width="173.5" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-18" value="RepositoryService" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-157" y="366" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-19" value="InteractiveAssemblyService" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="156" y="366" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-20" value="FileManagementService" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-157" y="450" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-21" value="JobExecutionService" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="156" y="447" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-25" target="X8OBtTKPQ86jGMtwhGi1-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-27" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-25" target="X8OBtTKPQ86jGMtwhGi1-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-14" target="X8OBtTKPQ86jGMtwhGi1-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-31" value="instancie et maintient les reférences" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="X8OBtTKPQ86jGMtwhGi1-29">
+          <mxGeometry x="-0.2154" y="1" relative="1" as="geometry">
+            <mxPoint x="26" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-32" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;exitX=0.929;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-297.26" y="443.99540653300573" as="sourcePoint" />
+            <mxPoint x="-176.00200000000018" y="460.24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-33" value="&lt;div&gt;délègue action.&lt;/div&gt;&lt;div&gt;ex: repositoryService.deleteTemplate()&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="X8OBtTKPQ86jGMtwhGi1-32">
+          <mxGeometry x="-0.1061" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-37" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-36" target="X8OBtTKPQ86jGMtwhGi1-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-38" value="instancie (en passant la config) et maintient la référence" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="X8OBtTKPQ86jGMtwhGi1-37">
+          <mxGeometry x="-0.3143" relative="1" as="geometry">
+            <mxPoint x="37" y="-34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-36" value="ApplicationManager" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1012" y="479" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-41" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.536;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-39" target="X8OBtTKPQ86jGMtwhGi1-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-525" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-42" value="délègue action&lt;br&gt;ex: middlewareInterface.deleteTemplate()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="X8OBtTKPQ86jGMtwhGi1-41">
+          <mxGeometry x="0.1568" relative="1" as="geometry">
+            <mxPoint x="1" y="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-43" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-39" target="X8OBtTKPQ86jGMtwhGi1-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-44" value="récupère instance de MiddlewareInterface" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="X8OBtTKPQ86jGMtwhGi1-43">
+          <mxGeometry x="-0.0803" relative="1" as="geometry">
+            <mxPoint x="3" y="45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-51" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-656" y="489" as="sourcePoint" />
+            <mxPoint x="-732" y="489" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-52" value="instancie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="X8OBtTKPQ86jGMtwhGi1-51">
+          <mxGeometry x="-0.2895" y="-2" relative="1" as="geometry">
+            <mxPoint x="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-39" value="JBApplication" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-656" y="479" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-47" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-46" target="X8OBtTKPQ86jGMtwhGi1-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-48" value="&lt;div&gt;délègue action&lt;/div&gt;&lt;div&gt;ex: jbApplication.deleteTemplate()&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="X8OBtTKPQ86jGMtwhGi1-47">
+          <mxGeometry x="0.1084" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-49" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-396" y="620" as="sourcePoint" />
+            <mxPoint x="-396" y="537" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-50" value="instancie et maintient la référence (une par host de production)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="X8OBtTKPQ86jGMtwhGi1-49">
+          <mxGeometry x="0.1807" relative="1" as="geometry">
+            <mxPoint x="104" y="35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-46" value="BdocWebAccessImpl" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-656" y="622" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-59" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-53" target="X8OBtTKPQ86jGMtwhGi1-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-71" value="repositoryService.deleteTemplate(productionConfiguration, ....)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="X8OBtTKPQ86jGMtwhGi1-59">
+          <mxGeometry x="0.2087" y="-2" relative="1" as="geometry">
+            <mxPoint x="-65" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-60" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-53" target="X8OBtTKPQ86jGMtwhGi1-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-61" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-53" target="X8OBtTKPQ86jGMtwhGi1-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-62" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-53" target="X8OBtTKPQ86jGMtwhGi1-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-53" value="BdocWebAccessImpl" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-984" y="935" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-66" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-54" target="X8OBtTKPQ86jGMtwhGi1-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-77" value="demande la connection associée au host pour créer ses clients" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="X8OBtTKPQ86jGMtwhGi1-66">
+          <mxGeometry x="-0.2531" relative="1" as="geometry">
+            <mxPoint x="25" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-73" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-54" target="X8OBtTKPQ86jGMtwhGi1-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-74" value="repositoryServiceBlockingClient.deleteTemplate()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="X8OBtTKPQ86jGMtwhGi1-73">
+          <mxGeometry x="-0.095" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-54" value="RepositoryService" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-554" y="785" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-65" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-55" target="X8OBtTKPQ86jGMtwhGi1-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-55" value="InteractiveAssemblyService" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-557" y="893" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-67" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-56" target="X8OBtTKPQ86jGMtwhGi1-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-56" value="FileManagementService" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-557" y="999" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-57" value="JobExecutionService" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-554" y="1105" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-63" value="BdocProductionConnector" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-141" y="937" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-68" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.318;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-57" target="X8OBtTKPQ86jGMtwhGi1-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-69" value="Stocke une map de connections par host" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;" vertex="1" parent="1">
+          <mxGeometry x="143" y="881" width="173.5" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-70" value="Stocke une map de client par host" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;" vertex="1" parent="1">
+          <mxGeometry x="-281" y="682" width="173.5" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-72" value="BdocProduction" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#001C54;fontColor=#002058;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;strokeWidth=3;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="71" y="685" width="143" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-75" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.196;entryY=0.916;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="X8OBtTKPQ86jGMtwhGi1-63" target="X8OBtTKPQ86jGMtwhGi1-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X8OBtTKPQ86jGMtwhGi1-76" value="créé et maintient les connections" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="X8OBtTKPQ86jGMtwhGi1-75">
+          <mxGeometry x="0.1666" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
