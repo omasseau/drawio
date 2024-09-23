@@ -49,6 +49,29 @@
             <mxPoint x="23" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="S9hYXjyLtw-7AESQ6mhY-17" value="Incohérence dans l&#39;implémentation. On lance le workflow systématiquement dans le contexte de création d&#39;une requête GDPR via API rest alors qu&#39;on propose l’exécution et la récupération des résultats de la requête GDPR via API rest. Fonctionnellement, si on passe par l&#39;API rest pour la création, toute la suite (validation,rejet, restitution, fermeture) doit se faire exclusivement par API rest" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1226" y="-180" width="241" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S9hYXjyLtw-7AESQ6mhY-22" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" target="S9hYXjyLtw-7AESQ6mhY-1">
+          <mxGeometry width="140" relative="1" as="geometry">
+            <mxPoint x="1239" y="-32" as="sourcePoint" />
+            <mxPoint x="1379" y="-32" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S9hYXjyLtw-7AESQ6mhY-25" value="Aucun intérêt à exécuter la requête GDPR via une tâche. En effet son execution est rapide et la requête n&#39;a pas besoin d&#39;être retraitée de manière périodique car on ne prend en compte que les documents créés avant la demande GDPR et pas les documents créés après (subsiste un doute sur le fait que légalement c&#39;est bien ce fonctionnement qui est le bon)" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="257" y="-544" width="278" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="S9hYXjyLtw-7AESQ6mhY-27" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.29;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="S9hYXjyLtw-7AESQ6mhY-1">
+          <mxGeometry width="140" relative="1" as="geometry">
+            <mxPoint x="367" y="-392" as="sourcePoint" />
+            <mxPoint x="452" y="-372" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S9hYXjyLtw-7AESQ6mhY-28" value="La création asynchrone via l&#39;API rest n&#39;a pas d&#39;intérêt si l&#39;execution peut se faire directement sans devoir passer par une tâche" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-556" y="-531" width="287" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
