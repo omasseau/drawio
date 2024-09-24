@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.16">
   <diagram name="Page-1" id="7pggRaA9-LM1eJAc26nF">
-    <mxGraphModel dx="2874" dy="1992" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2234" dy="1752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -71,6 +71,16 @@
         </mxCell>
         <mxCell id="S9hYXjyLtw-7AESQ6mhY-28" value="La création asynchrone via l&#39;API rest n&#39;a pas d&#39;intérêt si l&#39;execution peut se faire directement sans devoir passer par une tâche" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-556" y="-531" width="287" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S9hYXjyLtw-7AESQ6mhY-29" value="Export sur FS uniquement possible via l&#39;appel à l&#39;API REST. Restitution sur FS fait via une tâche" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="13" y="731" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S9hYXjyLtw-7AESQ6mhY-30" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" target="S9hYXjyLtw-7AESQ6mhY-1">
+          <mxGeometry width="140" relative="1" as="geometry">
+            <mxPoint x="87" y="669" as="sourcePoint" />
+            <mxPoint x="227" y="669" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
