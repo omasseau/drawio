@@ -1,9 +1,196 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.7.17">
   <diagram name="Page-1" id="j773ubomnnfN1FeWVX7h">
-    <mxGraphModel>
+    <mxGraphModel dx="3274" dy="792" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-21" value="&lt;div&gt;GED&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0095db;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-497" y="421" width="455" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-22" value="Production" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="57" y="419" width="299" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-24" value="&lt;div&gt;EmailInfo&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="540" width="194" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-25" value="SmsInfo" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="655" width="194" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-26" value="SheetInfo" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="341" y="770" width="194" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-27" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-30" target="XxjR1Zo8Gu4WIjCwgplM-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-28" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-30" target="XxjR1Zo8Gu4WIjCwgplM-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-30" target="XxjR1Zo8Gu4WIjCwgplM-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-30" value="&lt;div&gt;Communication&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;communication : 1&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;getObjectId: 123&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=5;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;align=left;spacingRight=0;spacingLeft=10;spacingTop=2;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="64" y="534" width="190" height="367" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.979;entryY=0.475;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-45.98999999999978" y="717.3249999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-48" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-32" target="XxjR1Zo8Gu4WIjCwgplM-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-49" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-32" target="XxjR1Zo8Gu4WIjCwgplM-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-81" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-32" target="XxjR1Zo8Gu4WIjCwgplM-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-32" value="&lt;div&gt;Communication&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;gedObjectId: 123&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-248" y="684.5" width="200" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-45" value="&lt;div&gt;Index&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;name: &quot;name&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;value:....&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-507" y="580" width="200" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-46" value="&lt;div&gt;Index&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;name: &quot;totalNumberOfPages&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;value: 10&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-503" y="682" width="200" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-47" value="&lt;div&gt;Index&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;name: &quot;totalNumberOSheets&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;value: 20&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-503" y="794" width="200" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-50" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.985;entryY=0.364;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-32" target="XxjR1Zo8Gu4WIjCwgplM-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-51" value="&lt;div&gt;GED&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0095db;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-501" y="990" width="455" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-52" value="Production" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="53" y="988" width="299" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-84" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-53" target="XxjR1Zo8Gu4WIjCwgplM-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-85" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-53" target="XxjR1Zo8Gu4WIjCwgplM-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-53" value="&lt;div&gt;Communication&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;gedObjectId : 123&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;name&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;totalNumberOfPages&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;totalNumberOfSheets&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;documentCount&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;...&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=5;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;align=left;spacingRight=0;spacingLeft=10;spacingTop=2;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-236" y="1112" width="190" height="367" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-54" value="&lt;div&gt;EmailInfo&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="331" y="1109" width="194" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-55" value="SmsInfo" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="331" y="1224" width="194" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-56" value="SheetInfo" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="337" y="1339" width="194" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-57" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-60" target="XxjR1Zo8Gu4WIjCwgplM-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-58" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-60" target="XxjR1Zo8Gu4WIjCwgplM-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-59" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-60" target="XxjR1Zo8Gu4WIjCwgplM-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-60" value="&lt;div&gt;Communication&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;communicationId : 1&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;gedObjectId:123&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=5;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;align=left;spacingRight=0;spacingLeft=10;spacingTop=2;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1103" width="190" height="367" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-61" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.979;entryY=0.475;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-60" target="XxjR1Zo8Gu4WIjCwgplM-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-62" value="&lt;div&gt;GED&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0095db;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-493" y="1770" width="455" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-63" value="Production" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="61" y="1768" width="299" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-73" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-64" target="XxjR1Zo8Gu4WIjCwgplM-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-74" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-64" target="XxjR1Zo8Gu4WIjCwgplM-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-75" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-64" target="XxjR1Zo8Gu4WIjCwgplM-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-91" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-64" target="XxjR1Zo8Gu4WIjCwgplM-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-92" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-64" target="XxjR1Zo8Gu4WIjCwgplM-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-64" value="&lt;div&gt;Communication&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;gedObjectId : 123&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;name&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;totalNumberOfPages&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;totalNumberOfSheets&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;documentCount&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;...&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=5;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;align=left;spacingRight=0;spacingLeft=10;spacingTop=2;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-228" y="1892" width="190" height="367" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-65" value="&lt;div&gt;EmailInfo&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="1897" width="194" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-66" value="SmsInfo" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-472" y="2019" width="194" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-67" value="SheetInfo" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="2147" width="194" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-71" value="&lt;div&gt;Communication&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;communicationId : 1&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;gedObjectId: 123&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=5;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;align=left;spacingRight=0;spacingLeft=10;spacingTop=2;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="68" y="1883" width="190" height="367" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-72" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.979;entryY=0.475;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-71" target="XxjR1Zo8Gu4WIjCwgplM-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-76" value="Recherche" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0095db;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-1028" y="419" width="455" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-77" value="&lt;div&gt;Document&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;id: 123&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;type: Communication&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;idx_name: abc&lt;br&gt;&lt;/font&gt;&lt;/div&gt;i&lt;font style=&quot;font-size: 12px;&quot;&gt;dx_totalNumberOfPages: 10&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;idx_totalNumberOfSheets: 20&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-916" y="514" width="200" height="238" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-78" value="&lt;div&gt;Document&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;gedObjectId: 124&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-394" y="895" width="200" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-79" value="&lt;div&gt;Document&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;getObjectId: 125&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="895" width="200" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-80" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-262" y="892" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-82" value="&lt;div&gt;Document&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;gedObjectId: 124&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-385" y="1592" width="200" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-83" value="&lt;div&gt;Document&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;getObjectId: 125&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-161" y="1592" width="200" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-86" value="Une communication dans la GED n&#39;est qu&#39;une liste de documents avec des index prédéfinis" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-188" y="555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-87" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="XxjR1Zo8Gu4WIjCwgplM-86" target="XxjR1Zo8Gu4WIjCwgplM-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-89" value="&lt;div&gt;Document&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;gedObjectId: 124&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="2350" width="200" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-90" value="&lt;div&gt;Document&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;getObjectId: 125&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-146" y="2350" width="200" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-93" value="Une communication dans la GED est un objet bien plus complexe qu&#39;une simple liste de documents avec des index (on ne reprend cependant que les metadata simples permettant une recherche de cette comunication dans la GED)" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-527" y="1166" width="248" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-95" value="Recherche" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0095db;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-1008" y="990" width="455" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-96" value="&lt;div&gt;Document&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;id: 123&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;type: Communication&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;idx_name: abc&lt;br&gt;&lt;/font&gt;&lt;/div&gt;i&lt;font style=&quot;font-size: 12px;&quot;&gt;dx_totalNumberOfPages: 10&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;idx_totalNumberOfSheets: 20&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-896" y="1085" width="200" height="238" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-97" value="Recherche" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0095db;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-1015" y="1770" width="455" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-98" value="&lt;div&gt;Document&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;id: 123&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;type: Communication&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;idx_name: abc&lt;br&gt;&lt;/font&gt;&lt;/div&gt;i&lt;font style=&quot;font-size: 12px;&quot;&gt;dx_totalNumberOfPages: 10&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;idx_totalNumberOfSheets: 20&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-903" y="1865" width="200" height="238" as="geometry" />
+        </mxCell>
+        <mxCell id="XxjR1Zo8Gu4WIjCwgplM-99" value="Une communication dans la GED est un objet bien plus complexe qu&#39;une simple liste de documents avec des index. On reprend la structure complète des objets représentant une communication (même si pas directement exploités dans la GED)" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-689" y="2330" width="248" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
