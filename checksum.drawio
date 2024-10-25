@@ -276,8 +276,8 @@
             <mxPoint x="13" y="-54" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-86" value="Le check du checksum MD5 à l&#39;étape 4 permet d&#39;éviter de : &lt;br&gt;&lt;div&gt;- downloader le fichier si le checksum ne matche pas&lt;/div&gt;&lt;div&gt;- relire 2 fois le fichier (et donc ne pas pouvoir profiter de l&#39;InputStream de bout en bout, l&#39;InputStream ne pouvant être lu qu&#39;une seul fois (même avec un déchiffrement/décompression à la volée) et le calcul du checksum nécessitant une première lecture complète).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--&amp;gt; Est-ce que le gain que cela apporte mitige suffisamment la complexité supplémentaire ?&lt;br&gt;(Au pire le checksum MD5 peut être géré plus tard pour optimiser les performances)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-4584" y="-2968" width="612" height="30" as="geometry" />
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-86" value="Le check du checksum MD5 à l&#39;étape 4 permet d&#39;éviter de : &lt;br&gt;&lt;div&gt;- downloader le fichier si le checksum ne matche pas&lt;/div&gt;&lt;div&gt;- relire 2 fois le fichier (et donc ne pas pouvoir profiter de l&#39;InputStream de bout en bout, l&#39;InputStream ne pouvant être lu qu&#39;une seul fois (même avec un déchiffrement/décompression à la volée) et le calcul du checksum nécessitant une première lecture complète).&lt;br&gt;- Avoir des I/O disque + CPU inutiles&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--&amp;gt; Est-ce que le gain que cela apporte mitige suffisamment la complexité supplémentaire ?&lt;br&gt;(Au pire le checksum MD5 peut être géré plus tard pour optimiser les performances)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-4571" y="-2935" width="612" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YbTp-LDWos9JZ0LRHWmP-87" value="Le but premier est de s&#39;assurer que le fichier n&#39;a pas été modifié par une tierce personne dans le store" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-4594" y="-2174" width="612" height="30" as="geometry" />
@@ -304,7 +304,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-102" value="4) retour du contenu du fichier stocké" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-91">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-102" value="6) retour du contenu du fichier stocké" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-91">
           <mxGeometry x="-0.1182" y="-43" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -316,12 +316,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-127" value="5) copie du fichier en tant que fichier temporaire&lt;br&gt; + décompression et déchiffrement si nécessaire" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-125">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-127" value="4) download et copie du fichier en tant que fichier temporaire&lt;br&gt; + décompression et déchiffrement si nécessaire (io réseau + io disque + cpu)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-125">
           <mxGeometry x="-0.4276" y="-34" relative="1" as="geometry">
-            <mxPoint x="-228" y="47" as="offset" />
+            <mxPoint x="-295" y="75" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-128" value="6) vérification du checksum original" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-125">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-128" value="5) vérification du checksum original (io disque + cpu)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-125">
           <mxGeometry x="0.1826" y="-30" relative="1" as="geometry">
             <mxPoint x="18" y="21" as="offset" />
           </mxGeometry>
