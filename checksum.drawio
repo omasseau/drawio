@@ -51,7 +51,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-64" value="4) récupération du fichier par la queue de traitement (avec check du checksum SHA-1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-63">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-64" value="4) récupération du fichier par la queue de traitement (avec check éventuel du checksum SHA-1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-63">
           <mxGeometry x="0.3064" y="24" relative="1" as="geometry">
             <mxPoint x="83" y="-6" as="offset" />
           </mxGeometry>
@@ -68,7 +68,7 @@
         </mxCell>
         <mxCell id="YbTp-LDWos9JZ0LRHWmP-28" value="6) retour checksum MD5 du fichier stocké (storageFileChecksum est null en DB donc aucune comparaison à faire)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-22">
           <mxGeometry x="-0.2772" relative="1" as="geometry">
-            <mxPoint x="78" y="44" as="offset" />
+            <mxPoint x="119" y="41" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YbTp-LDWos9JZ0LRHWmP-4" value="FileSystem-Hot" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
@@ -276,7 +276,7 @@
             <mxPoint x="13" y="-54" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-86" value="Le check du checksum MD5 à l&#39;étape 4 permet d&#39;éviter de : &lt;br&gt;&lt;div&gt;- downloader le fichier si le checksum ne matche pas&lt;/div&gt;&lt;div&gt;- relire 2 fois le fichier (et donc ne pas pouvoir profiter de l&#39;InputStream de bout en bout, l&#39;InputStream ne pouvant être lu qu&#39;une seul fois (même avec un déchiffrement/décompression à la volée) et le calcul du checksum nécessitant une première lecture complète).&lt;br&gt;- Avoir des I/O disque + CPU inutiles&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--&amp;gt; Est-ce que le gain que cela apporte mitige suffisamment la complexité supplémentaire ?&lt;br&gt;(Au pire le checksum MD5 peut être géré plus tard pour optimiser les performances)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-86" value="Le check du checksum MD5 à l&#39;étape 4 permet d&#39;éviter de : &lt;br&gt;&lt;div&gt;- downloader le fichier si le checksum ne matche pas&lt;/div&gt;&lt;div&gt;- relire 2 fois le fichier (et donc ne pas pouvoir profiter de l&#39;InputStream de bout en bout, l&#39;InputStream ne pouvant être lu qu&#39;une seul fois (même avec un déchiffrement/décompression à la volée) et le calcul du checksum nécessitant une première lecture complète).&lt;br&gt;- Avoir des I/O disque + CPU inutiles&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--&amp;gt; Est-ce que le gain que cela apporte mitige suffisamment la complexité supplémentaire ?&lt;br&gt;(Au pire le checksum MD5 peut être géré plus tard pour optimiser les performances. Peut-être vaut-il mieux s&#39;assurer que tout fonctionne déjà avant d&#39;optimiser les performances)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-4571" y="-2935" width="612" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YbTp-LDWos9JZ0LRHWmP-87" value="Le but premier est de s&#39;assurer que le fichier n&#39;a pas été modifié par une tierce personne dans le store" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
