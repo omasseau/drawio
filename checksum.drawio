@@ -1,18 +1,18 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.3">
   <diagram name="Page-1" id="aEC1pFzfvVVUaIhpc6jD">
-    <mxGraphModel dx="7034" dy="4832" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7674" dy="5192" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-3" target="YbTp-LDWos9JZ0LRHWmP-4">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-3" target="YbTp-LDWos9JZ0LRHWmP-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-19" value="5) stockage du fichier&amp;nbsp; (après compression/chiffrement si nécessaire)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-6">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-19" value="5) stockage du fichier&amp;nbsp; (après compression/chiffrement si nécessaire)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-6" vertex="1" connectable="0">
           <mxGeometry x="-0.1155" y="1" relative="1" as="geometry">
             <mxPoint x="53" y="-46" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.385;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-3" target="YbTp-LDWos9JZ0LRHWmP-14">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.385;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-3" target="YbTp-LDWos9JZ0LRHWmP-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-4784" y="-2710" as="targetPoint" />
             <Array as="points">
@@ -20,97 +20,97 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-18" value="3) copie du fichier original" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-17">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-18" value="3) copie du fichier original" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-17" vertex="1" connectable="0">
           <mxGeometry x="0.2644" relative="1" as="geometry">
             <mxPoint x="-39" y="55" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-3" target="YbTp-LDWos9JZ0LRHWmP-5">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-3" target="YbTp-LDWos9JZ0LRHWmP-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-21" value="8) copie du fichier de hot vers cold" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-20">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-21" value="8) copie du fichier de hot vers cold" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-20" vertex="1" connectable="0">
           <mxGeometry x="0.3398" y="1" relative="1" as="geometry">
             <mxPoint x="-31" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-3" target="YbTp-LDWos9JZ0LRHWmP-23">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-3" target="YbTp-LDWos9JZ0LRHWmP-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-4603" y="-2227" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-30" value="7) stockage checksum MD5 dans storeFileChecksum" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-29">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-30" value="7) stockage checksum MD5 dans storeFileChecksum" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-29" vertex="1" connectable="0">
           <mxGeometry x="0.2689" y="-30" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-63" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.667;entryY=0.933;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;entryPerimeter=0;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-3" target="YbTp-LDWos9JZ0LRHWmP-14">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-63" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.667;entryY=0.933;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;entryPerimeter=0;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-3" target="YbTp-LDWos9JZ0LRHWmP-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-4630" y="-2640" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-64" value="4) récupération du fichier par la queue de traitement (avec check éventuel du checksum SHA-1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-63">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-64" value="4) récupération du fichier par la queue de traitement (avec check éventuel du checksum SHA-1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-63" vertex="1" connectable="0">
           <mxGeometry x="0.3064" y="24" relative="1" as="geometry">
             <mxPoint x="98" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-3" value="File-storage" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=5;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;align=left;spacingRight=0;spacingLeft=10;spacingTop=2;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-3" value="File-storage" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=5;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;align=left;spacingRight=0;spacingLeft=10;spacingTop=2;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="-4861" y="-2536" width="190" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-22" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-4" target="YbTp-LDWos9JZ0LRHWmP-3">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-22" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-4" target="YbTp-LDWos9JZ0LRHWmP-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-4510" y="-2473" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-28" value="6) retour checksum MD5 du fichier stocké (storageFileChecksum est null en DB donc aucune comparaison à faire)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-22">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-28" value="6) retour checksum MD5 du fichier stocké (storageFileChecksum est null en DB donc aucune comparaison à faire)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-22" vertex="1" connectable="0">
           <mxGeometry x="-0.2772" relative="1" as="geometry">
             <mxPoint x="119" y="41" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-4" value="FileSystem-Hot" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-4" value="FileSystem-Hot" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="-4218" y="-2644" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-5" target="YbTp-LDWos9JZ0LRHWmP-3">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-5" target="YbTp-LDWos9JZ0LRHWmP-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-4464" y="-2306" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-32" value="9) retour checksum MD5 (si différent de storeFileChecksum -&amp;gt; KO)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#66B2FF;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-31">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-32" value="9) retour checksum MD5 (si différent de storeFileChecksum -&amp;gt; KO)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#66B2FF;" parent="YbTp-LDWos9JZ0LRHWmP-31" vertex="1" connectable="0">
           <mxGeometry x="-0.0105" y="-26" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-5" value="GCS-Cold" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-5" value="GCS-Cold" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="-4222" y="-2388" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-13" target="YbTp-LDWos9JZ0LRHWmP-3">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-13" target="YbTp-LDWos9JZ0LRHWmP-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-16" value="1) calcul checksum SHA-1 sur fichier original" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-15">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-16" value="1) calcul checksum SHA-1 sur fichier original" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-15" vertex="1" connectable="0">
           <mxGeometry x="0.3596" y="-2" relative="1" as="geometry">
             <mxPoint x="-55" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-13" value="Upload" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F04641;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-13" value="Upload" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F04641;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="-5290" y="-2458.5" width="142" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-14" value="Waiting-room" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-14" value="Waiting-room" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="-4930" y="-2770" width="291" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-23" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAverage%2BSans;fontSize=12;fontColor=default;fontStyle=0;strokeColor=#FFFFFF;arcSize=50;fillColor=#00AA9B;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-23" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAverage%2BSans;fontSize=12;fontColor=default;fontStyle=0;strokeColor=#FFFFFF;arcSize=50;fillColor=#00AA9B;" parent="1" vertex="1">
           <mxGeometry x="-4791" y="-2193" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-24" value="DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontColor=#002058;fontSize=16;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-24" value="DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontColor=#002058;fontSize=16;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="-4806" y="-2164" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-3" target="YbTp-LDWos9JZ0LRHWmP-23">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-3" target="YbTp-LDWos9JZ0LRHWmP-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-4894.9104477611945" y="-2315" as="sourcePoint" />
             <mxPoint x="-4827" y="-2182" as="targetPoint" />
@@ -119,90 +119,90 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-27" value="2) stockage checksum SHA-1 dans originalFileChecksum" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-26">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-27" value="2) stockage checksum SHA-1 dans originalFileChecksum" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-26" vertex="1" connectable="0">
           <mxGeometry x="-0.3244" y="3" relative="1" as="geometry">
             <mxPoint x="13" y="-54" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-44" target="YbTp-LDWos9JZ0LRHWmP-47">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-44" target="YbTp-LDWos9JZ0LRHWmP-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-37" value="5) copie fichier downloadé depuis cold store" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-36">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-37" value="5) copie fichier downloadé depuis cold store" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-36" vertex="1" connectable="0">
           <mxGeometry x="-0.1155" y="1" relative="1" as="geometry">
             <mxPoint x="-13" y="-31" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-40" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-44" target="YbTp-LDWos9JZ0LRHWmP-50">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-40" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-44" target="YbTp-LDWos9JZ0LRHWmP-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-41" value="3) demande download à partir cold storage (pour restore dans hot) - storeFileChecksum fourni en paramètre" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-40">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-41" value="3) demande download à partir cold storage (pour restore dans hot) - storeFileChecksum fourni en paramètre" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-40" vertex="1" connectable="0">
           <mxGeometry x="0.3398" y="1" relative="1" as="geometry">
             <mxPoint x="4" y="-23" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-65" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-44" target="YbTp-LDWos9JZ0LRHWmP-47">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-65" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-44" target="YbTp-LDWos9JZ0LRHWmP-47" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-4601" y="-2050" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-66" value="7) récupération contenu du fichier - storeFileChecksum fourni en paramètre" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-65">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-66" value="7) récupération contenu du fichier - storeFileChecksum fourni en paramètre" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-65" vertex="1" connectable="0">
           <mxGeometry x="0.0167" y="-55" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-44" value="File-storage" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=5;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;align=left;spacingRight=0;spacingLeft=10;spacingTop=2;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-44" value="File-storage" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=5;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;align=left;spacingRight=0;spacingLeft=10;spacingTop=2;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="-4876" y="-1819" width="190" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-45" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-47" target="YbTp-LDWos9JZ0LRHWmP-44">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-45" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-47" target="YbTp-LDWos9JZ0LRHWmP-44" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-4525" y="-1756" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-46" value="6) retour checksum MD5 du fichier copié (Si différent de storeFileChecksum -&amp;gt; KO)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#66B2FF;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-45">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-46" value="6) retour checksum MD5 du fichier copié (Si différent de storeFileChecksum -&amp;gt; KO)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#66B2FF;" parent="YbTp-LDWos9JZ0LRHWmP-45" vertex="1" connectable="0">
           <mxGeometry x="-0.2772" relative="1" as="geometry">
             <mxPoint x="78" y="44" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-47" value="FileSystem-Hot" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-47" value="FileSystem-Hot" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="-4233" y="-1927" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-48" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-50" target="YbTp-LDWos9JZ0LRHWmP-44">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-48" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-50" target="YbTp-LDWos9JZ0LRHWmP-44" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-4479" y="-1589" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-49" value="4) retour checksum MD5. Si différent de storeFileChecksum -&amp;gt; KO. Sinon récupération fichier (stream)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-48">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-49" value="4) retour checksum MD5. Si différent de storeFileChecksum -&amp;gt; KO. Sinon récupération fichier (stream)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-48" vertex="1" connectable="0">
           <mxGeometry x="-0.0105" y="-26" relative="1" as="geometry">
             <mxPoint x="79" y="20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-50" value="GCS-Cold" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-50" value="GCS-Cold" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="-4208" y="-1678" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-51" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-53" target="YbTp-LDWos9JZ0LRHWmP-44">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-51" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-53" target="YbTp-LDWos9JZ0LRHWmP-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-52" value="1) demande download avec vérification checksum" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-51">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-52" value="1) demande download avec vérification checksum" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-51" vertex="1" connectable="0">
           <mxGeometry x="0.3596" y="-2" relative="1" as="geometry">
             <mxPoint x="-65" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-53" value="Download" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F04641;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-53" value="Download" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F04641;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="-5343" y="-1741.5" width="142" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-55" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAverage%2BSans;fontSize=12;fontColor=default;fontStyle=0;strokeColor=#FFFFFF;arcSize=50;fillColor=#00AA9B;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-55" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAverage%2BSans;fontSize=12;fontColor=default;fontStyle=0;strokeColor=#FFFFFF;arcSize=50;fillColor=#00AA9B;" parent="1" vertex="1">
           <mxGeometry x="-4806" y="-1476" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-56" value="DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontColor=#002058;fontSize=16;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-56" value="DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontColor=#002058;fontSize=16;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="-4821" y="-1447" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-57" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-44" target="YbTp-LDWos9JZ0LRHWmP-55">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-57" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-44" target="YbTp-LDWos9JZ0LRHWmP-55" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-4909.9104477611945" y="-1598" as="sourcePoint" />
             <mxPoint x="-4842" y="-1465" as="targetPoint" />
@@ -211,59 +211,59 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-58" value="2) récupération du storeFileChecksum" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-57">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-58" value="2) récupération du storeFileChecksum" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-57" vertex="1" connectable="0">
           <mxGeometry x="-0.3244" y="3" relative="1" as="geometry">
             <mxPoint x="13" y="-54" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-69" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-71" target="YbTp-LDWos9JZ0LRHWmP-77">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-69" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-71" target="YbTp-LDWos9JZ0LRHWmP-77" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-4429" y="-3365" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-70" value="3) demande download&amp;nbsp; - storeFileChecksum fourni en paramètre" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-69">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-70" value="3) demande download&amp;nbsp; - storeFileChecksum fourni en paramètre" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-69" vertex="1" connectable="0">
           <mxGeometry x="0.3398" y="1" relative="1" as="geometry">
             <mxPoint x="4" y="-23" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-71" value="File-storage" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=5;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;align=left;spacingRight=0;spacingLeft=10;spacingTop=2;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-71" value="File-storage" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=5;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;align=left;spacingRight=0;spacingLeft=10;spacingTop=2;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="-4846" y="-3311" width="190" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-75" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-77" target="YbTp-LDWos9JZ0LRHWmP-71">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-75" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-77" target="YbTp-LDWos9JZ0LRHWmP-71" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-4387" y="-3055" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-76" value="4) Si MD5 différent de storeFileChecksum -&amp;gt; KO. Sinon récupération et retour du fichier (sous forme de stream décompressé/déchiffré à la volée)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-75">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-76" value="4) Si MD5 différent de storeFileChecksum -&amp;gt; KO. Sinon récupération et retour du fichier (sous forme de stream décompressé/déchiffré à la volée)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-75" vertex="1" connectable="0">
           <mxGeometry x="-0.0105" y="-26" relative="1" as="geometry">
             <mxPoint x="79" y="20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-77" value="GCS-Hot" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-77" value="GCS-Hot" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="-4182" y="-3245" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-78" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-80" target="YbTp-LDWos9JZ0LRHWmP-71">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-78" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-80" target="YbTp-LDWos9JZ0LRHWmP-71" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-79" value="1) demande download avec vérification checksum" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-78">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-79" value="1) demande download avec vérification checksum" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-78" vertex="1" connectable="0">
           <mxGeometry x="0.3596" y="-2" relative="1" as="geometry">
             <mxPoint x="-65" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-80" value="Download" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F04641;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-80" value="Download" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F04641;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="-5313" y="-3233.5" width="142" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-81" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAverage%2BSans;fontSize=12;fontColor=default;fontStyle=0;strokeColor=#FFFFFF;arcSize=50;fillColor=#00AA9B;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-81" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAverage%2BSans;fontSize=12;fontColor=default;fontStyle=0;strokeColor=#FFFFFF;arcSize=50;fillColor=#00AA9B;" parent="1" vertex="1">
           <mxGeometry x="-4776" y="-2968" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-82" value="DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontColor=#002058;fontSize=16;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-82" value="DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontColor=#002058;fontSize=16;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="-4791" y="-2939" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-83" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-71" target="YbTp-LDWos9JZ0LRHWmP-81">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-83" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-71" target="YbTp-LDWos9JZ0LRHWmP-81" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-4879.9104477611945" y="-3090" as="sourcePoint" />
             <mxPoint x="-4812" y="-2957" as="targetPoint" />
@@ -272,89 +272,89 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-84" value="2) récupération du storeFileChecksum" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-83">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-84" value="2) récupération du storeFileChecksum" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-83" vertex="1" connectable="0">
           <mxGeometry x="-0.3244" y="3" relative="1" as="geometry">
             <mxPoint x="13" y="-54" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-86" value="Le check du checksum MD5 à l&#39;étape 4 permet d&#39;éviter de : &lt;br&gt;&lt;div&gt;- downloader le fichier si le checksum ne matche pas&lt;/div&gt;&lt;div&gt;- relire 2 fois le fichier (et donc ne pas pouvoir profiter de l&#39;InputStream de bout en bout, l&#39;InputStream ne pouvant être lu qu&#39;une seul fois (même avec un déchiffrement/décompression à la volée) et le calcul du checksum nécessitant une première lecture complète).&lt;br&gt;- Avoir des I/O disque + CPU inutiles juste pour calculer le checksum&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--&amp;gt; Est-ce que le gain que cela apporte mitige suffisamment la complexité supplémentaire ?&lt;br&gt;(Au pire le checksum MD5 peut être géré plus tard pour optimiser les performances. Peut-être vaut-il mieux s&#39;assurer que tout fonctionne déjà avant d&#39;optimiser les performances)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-86" value="Le check du checksum MD5 à l&#39;étape 4 permet d&#39;éviter de : &lt;br&gt;&lt;div&gt;- downloader le fichier si le checksum ne matche pas&lt;/div&gt;&lt;div&gt;- relire 2 fois le fichier (et donc ne pas pouvoir profiter de l&#39;InputStream de bout en bout, l&#39;InputStream ne pouvant être lu qu&#39;une seul fois (même avec un déchiffrement/décompression à la volée) et le calcul du checksum nécessitant une première lecture complète).&lt;br&gt;- Avoir des I/O disque + CPU inutiles juste pour calculer le checksum&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--&amp;gt; Est-ce que le gain que cela apporte mitige suffisamment la complexité supplémentaire ?&lt;br&gt;(Au pire le checksum MD5 peut être géré plus tard pour optimiser les performances. Peut-être vaut-il mieux s&#39;assurer que tout fonctionne déjà avant d&#39;optimiser les performances)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-4552" y="-2922" width="612" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-87" value="Le but premier est de s&#39;assurer que le fichier n&#39;a pas été modifié par une tierce personne dans le store" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-87" value="Le but premier est de s&#39;assurer que le fichier n&#39;a pas été modifié par une tierce personne dans le store" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-4594" y="-2174" width="612" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-88" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-90" target="YbTp-LDWos9JZ0LRHWmP-93">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-88" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-90" target="YbTp-LDWos9JZ0LRHWmP-93" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-4429" y="-4003" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-89" value="3) demande download&amp;nbsp; - originalFileChecksum fourni en paramètre" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-88">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-89" value="3) demande download&amp;nbsp; - originalFileChecksum fourni en paramètre" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-88" vertex="1" connectable="0">
           <mxGeometry x="0.3398" y="1" relative="1" as="geometry">
             <mxPoint x="4" y="-23" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-90" value="File-storage" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=5;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;align=left;spacingRight=0;spacingLeft=10;spacingTop=2;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-90" value="File-storage" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=5;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;align=left;spacingRight=0;spacingLeft=10;spacingTop=2;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="-4846" y="-3949" width="190" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-91" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-93" target="YbTp-LDWos9JZ0LRHWmP-90">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-91" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-93" target="YbTp-LDWos9JZ0LRHWmP-90" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-4387" y="-3693" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-102" value="6) retour du contenu du fichier stocké" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-91">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-102" value="6) retour du contenu du fichier stocké" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-91" vertex="1" connectable="0">
           <mxGeometry x="-0.1182" y="-43" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-125" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-93" target="YbTp-LDWos9JZ0LRHWmP-103">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-125" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-93" target="YbTp-LDWos9JZ0LRHWmP-103" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-3877" y="-3747" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-127" value="4) download et copie du fichier en tant que fichier temporaire&lt;br&gt; + décompression et déchiffrement si nécessaire (io réseau + io disque + cpu)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-125">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-127" value="4) download et copie du fichier en tant que fichier temporaire&lt;br&gt; + décompression et déchiffrement si nécessaire (io réseau + io disque + cpu)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-125" vertex="1" connectable="0">
           <mxGeometry x="-0.4276" y="-34" relative="1" as="geometry">
             <mxPoint x="-295" y="75" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-128" value="5) vérification du checksum original (io disque + cpu)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-125">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-128" value="5) vérification du checksum original (io disque + cpu)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-125" vertex="1" connectable="0">
           <mxGeometry x="0.1826" y="-30" relative="1" as="geometry">
             <mxPoint x="18" y="21" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-126" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-93" target="YbTp-LDWos9JZ0LRHWmP-103">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-126" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-93" target="YbTp-LDWos9JZ0LRHWmP-103" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-4205" y="-3730" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-93" value="GCS-Cold" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-93" value="GCS-Hot" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="-4182" y="-3883" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-94" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-96" target="YbTp-LDWos9JZ0LRHWmP-90">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-94" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-96" target="YbTp-LDWos9JZ0LRHWmP-90" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-95" value="1) demande download avec vérification checksum" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-94">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-95" value="1) demande download avec vérification checksum" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-94" vertex="1" connectable="0">
           <mxGeometry x="0.3596" y="-2" relative="1" as="geometry">
             <mxPoint x="-65" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-96" value="Download" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F04641;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-96" value="Download" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F04641;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="-5313" y="-3871.5" width="142" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-97" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAverage%2BSans;fontSize=12;fontColor=default;fontStyle=0;strokeColor=#FFFFFF;arcSize=50;fillColor=#00AA9B;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-97" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAverage%2BSans;fontSize=12;fontColor=default;fontStyle=0;strokeColor=#FFFFFF;arcSize=50;fillColor=#00AA9B;" parent="1" vertex="1">
           <mxGeometry x="-4776" y="-3606" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-98" value="DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontColor=#002058;fontSize=16;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-98" value="DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontColor=#002058;fontSize=16;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="-4791" y="-3577" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-99" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YbTp-LDWos9JZ0LRHWmP-90" target="YbTp-LDWos9JZ0LRHWmP-97">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-99" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="YbTp-LDWos9JZ0LRHWmP-90" target="YbTp-LDWos9JZ0LRHWmP-97" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-4879.9104477611945" y="-3728" as="sourcePoint" />
             <mxPoint x="-4812" y="-3595" as="targetPoint" />
@@ -363,12 +363,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-100" value="2) récupération du originalFileChecksum" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YbTp-LDWos9JZ0LRHWmP-99">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-100" value="2) récupération du originalFileChecksum" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="YbTp-LDWos9JZ0LRHWmP-99" vertex="1" connectable="0">
           <mxGeometry x="-0.3244" y="3" relative="1" as="geometry">
             <mxPoint x="13" y="-54" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbTp-LDWos9JZ0LRHWmP-103" value="Temp files" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FAB631;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+        <mxCell id="YbTp-LDWos9JZ0LRHWmP-103" value="Temp files" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FAB631;strokeWidth=3;arcSize=19;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="-4179" y="-3616" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
