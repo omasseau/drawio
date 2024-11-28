@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.4">
   <diagram name="Page-1" id="FncsBsidGPWUWkws9rxi">
-    <mxGraphModel dx="2234" dy="1232" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2234" dy="1232" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -232,6 +232,76 @@
           <mxGeometry x="-0.1387" y="-1" relative="1" as="geometry">
             <mxPoint x="-12" y="-9" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_1UMDs2DOgb2wRNb5rlj-87" value="Storage Policy" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-228" y="1338" width="136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_1UMDs2DOgb2wRNb5rlj-89" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="_1UMDs2DOgb2wRNb5rlj-88" target="_1UMDs2DOgb2wRNb5rlj-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_1UMDs2DOgb2wRNb5rlj-98" value="associé à" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="_1UMDs2DOgb2wRNb5rlj-89">
+          <mxGeometry x="-0.1842" y="-2" relative="1" as="geometry">
+            <mxPoint x="7" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_1UMDs2DOgb2wRNb5rlj-91" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="_1UMDs2DOgb2wRNb5rlj-88" target="_1UMDs2DOgb2wRNb5rlj-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_1UMDs2DOgb2wRNb5rlj-97" value="chiffré par" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="_1UMDs2DOgb2wRNb5rlj-91">
+          <mxGeometry x="-0.1748" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_1UMDs2DOgb2wRNb5rlj-95" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="_1UMDs2DOgb2wRNb5rlj-88" target="_1UMDs2DOgb2wRNb5rlj-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_1UMDs2DOgb2wRNb5rlj-96" value="stocké dans" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="_1UMDs2DOgb2wRNb5rlj-95">
+          <mxGeometry x="-0.3226" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_1UMDs2DOgb2wRNb5rlj-88" value="Storage File" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-452" y="1338" width="131" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_1UMDs2DOgb2wRNb5rlj-90" value="Encryption Key" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-231" y="1452" width="136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_1UMDs2DOgb2wRNb5rlj-109" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="_1UMDs2DOgb2wRNb5rlj-92" target="_1UMDs2DOgb2wRNb5rlj-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_1UMDs2DOgb2wRNb5rlj-110" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="_1UMDs2DOgb2wRNb5rlj-92" target="_1UMDs2DOgb2wRNb5rlj-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_1UMDs2DOgb2wRNb5rlj-92" value="File Store" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-457" y="1454" width="136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_1UMDs2DOgb2wRNb5rlj-100" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="_1UMDs2DOgb2wRNb5rlj-99" target="_1UMDs2DOgb2wRNb5rlj-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_1UMDs2DOgb2wRNb5rlj-101" value="gère le cycle de vie de" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="_1UMDs2DOgb2wRNb5rlj-100">
+          <mxGeometry x="-0.1628" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_1UMDs2DOgb2wRNb5rlj-99" value="Task" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-452" y="1235" width="131" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_1UMDs2DOgb2wRNb5rlj-103" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="_1UMDs2DOgb2wRNb5rlj-102" target="_1UMDs2DOgb2wRNb5rlj-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_1UMDs2DOgb2wRNb5rlj-104" value="concerne" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="_1UMDs2DOgb2wRNb5rlj-103">
+          <mxGeometry x="0.0857" y="-2" relative="1" as="geometry">
+            <mxPoint x="-7" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_1UMDs2DOgb2wRNb5rlj-102" value="Import Error" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#042a60;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-661" y="1338" width="131" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_1UMDs2DOgb2wRNb5rlj-107" value="Hot File Store" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-532" y="1552" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_1UMDs2DOgb2wRNb5rlj-108" value="Cold File Store" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00AA9B;strokeWidth=3;arcSize=15;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=16;fontColor=#002058;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-361" y="1549" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
